@@ -26,23 +26,51 @@
 </head>
 <body>
 
+<div id="id_tile">
+  <input type="radio" name="myRadios" value="0" />roadmap
+  <input type="radio" name="myRadios" value="1" />satellite
+  <input type="radio" name="myRadios" value="2" />terrain
+  <input type="radio" name="myRadios" value="3" />cycling
+  <input type="radio" name="myRadios" value="4" checked="" />mapbox
+</div>
+<div id="id_layers">
+  <label><input type="checkbox" checked="" name="chkbox_1" id="chkbox_1" onClick="verifyCheckBoxes(1);"/>Pistes_MTL</label>
+  <label><input type="checkbox" checked="" name="chkbox_2" id="chkbox_2" onClick="verifyCheckBoxes(2);"/>IpBike_251</label>
+</div>
 <div id="mapid" style="width: 1200px; height: 800px; width: 100%;"></div>
 
 <script>
-    var mymap = L.map('mapid').setView([45.566169, -73.654492], 11);
 
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+    var mymap = L.map('mapid', {
+        center: [45.555555, -73.647647], //ahuntsic
+        zoom: 11,
+        minZoom: 2, 
         maxZoom: 18,
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-            '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-            'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        id: 'mapbox.streets'
-    }).addTo(mymap);
+        keyboard: true,
+        zoomControl: false,
+    });   
 
+    //L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mymap);
+    
+    //see http://leaflet-extras.github.io/leaflet-providers/preview/index.html for more tile layer
+    var roadmap      = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
+        ,satellite   = L.tileLayer('http://{s}.tiles.mapbox.com/v3/moklick.lh736gg3/{z}/{x}/{y}.png')
+        ,terrain     = L.tileLayer('http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.png')
+        ,cycling     = L.tileLayer('http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
+        ,semi        = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', { maxZoom: 18, attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' + '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' + 'Imagery © <a href="http://mapbox.com">Mapbox</a>', id: 'mapbox.streets' })
+        ;
+    var tileLayer_array = [roadmap, satellite, terrain, cycling, semi]
+
+    mymap.addLayer(tileLayer_array[0]);
+    
+    var tmp_layer_pistes;
+    var tmp_layer_ip251;
+    
+    
     // load GeoJSON from an external file
     $.getJSON("data_out/reseau_cyclable_2018_janv2018.geojson",function(data){
         // add GeoJSON layer to the map once the file is loaded
-        L.geoJson(data, { style: f_the_style, onEachFeature: function (feature, layer) {
+        tmp_layer_pistes = L.geoJson(data, { style: f_the_style, onEachFeature: function (feature, layer) {
             //put properties in a popup table
             var popupContent = "";
             popupContent += "<table>";
@@ -53,7 +81,7 @@
             }
             popupContent += "</table>";
             layer.bindPopup(popupContent);
-        } }).addTo(mymap);
+        } });
     });
 
     function f_the_style(feature) {
@@ -110,6 +138,64 @@
     }
     mymap.on('click', onMapClick);
 
+    // load GeoJSON from an external file
+    $.getJSON("data_out/IpBike_251.geojson",function(data_ipbike){
+        // add GeoJSON layer to the map once the file is loaded
+        tmp_layer_ip251 = L.geoJson(data_ipbike);
+    });
+
+    function verifyCheckBoxes(source) {
+        switch(source) {
+            case 1:
+                if (document.getElementById("chkbox_1").checked == true) {
+                    mymap.addLayer(tmp_layer_pistes);
+                }
+                else {
+                    mymap.removeLayer(tmp_layer_pistes);
+                }
+                break;
+            case 2:
+                if (document.getElementById("chkbox_2").checked == true) {
+                    mymap.addLayer(tmp_layer_ip251);
+                }
+                else {
+                    mymap.removeLayer(tmp_layer_ip251);
+                }
+                break;
+            default:
+                break;
+        }
+    }
+    
+    $(function () {
+        //if you have any radio selected by default
+        $('[name="myRadios"]:checked').addClass('selected');
+    });
+    $(document).on('click', '[name="myRadios"]', function () {
+        var $was_selected_val = 100;
+        if (!$(this).hasClass('selected')) {
+            var $was_selected = $('.selected[name="myRadios"]');
+            $was_selected_val = $was_selected.val();
+            if ($was_selected.length != 0){
+                //alert("radio box with value " + $was_selected_val + " was deselected");
+                $was_selected.removeClass('selected');
+            }
+        }
+        $(this).addClass('selected');
+        var $selected = $('.selected[name="myRadios"]');
+        var $selected_val = $selected.val();
+        mymap.removeLayer(tileLayer_array[$was_selected_val]);
+        mymap.addLayer(tileLayer_array[$selected_val]);
+        //g_tile_array[selected_val].addTo(mymap);
+    });
+    
+    //keep this at the end
+    document.getElementById("chkbox_1").checked = true;
+    document.getElementById("chkbox_2").checked = true;
+    document.getElementById("chkbox_1").click();
+    document.getElementById("chkbox_2").click();
+    mymap.addLayer(tmp_layer_pistes);
+    mymap.addLayer(tmp_layer_ip251);
 </script>
 
 
