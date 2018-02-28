@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Pistes cyclable de Montreal</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+        }
+    </style>
+    
+</head>
+<body>
+
+<div id="mapid" style="width: 1200px; height: 800px; width: 100%;"></div>
+
+<script>
+    var mymap = L.map('mapid').setView([45.566169, -73.654492], 11);
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+        maxZoom: 18,
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+            '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+            'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        id: 'mapbox.streets'
+    }).addTo(mymap);
+
+    // load GeoJSON from an external file
+    $.getJSON("data_out/reseau_cyclable_2018_janv2018.geojson",function(data){
+        // add GeoJSON layer to the map once the file is loaded
+        L.geoJson(data, { style: f_the_style, onEachFeature: function (feature, layer) {
+            //put properties in a popup table
+            var popupContent = "";
+            popupContent += "<table>";
+            for (var k in feature.properties) {
+                popupContent += "<tr><td>";
+                popupContent += k + '<td>' + String(feature.properties[k]);
+                popupContent += "</td></tr>";
+            }
+            popupContent += "</table>";
+            layer.bindPopup(popupContent);
+        } }).addTo(mymap);
+    });
+
+    function f_the_style(feature) {
+        var tmp_color = '#FF0000';
+
+        switch(feature.properties.TYPE_VOIE) {
+            case 1:
+                tmp_color = '#FF8000';
+                break;
+            case 2:
+                tmp_color = '#EEEE00';
+                break;
+            case 3:
+                tmp_color = '#84FF00';
+                break;
+            case 4:
+                tmp_color = '#00EEEE';
+                break;
+            case 5:
+                tmp_color = '#0084FF';
+                break;
+            case 6:
+                tmp_color = '#8400FF';
+                break;
+            case 7:
+                tmp_color = '#EE0000';
+                break;
+            case 8:
+                tmp_color = '#FF8000';
+                break;
+            default:
+                tmp_color = '#000099';
+        }
+
+        return {
+            weight: 4
+            ,opacity: 0.5
+            ,color: tmp_color
+            //,dashArray: '3'
+            //,fillOpacity: 0.3
+            //,fillColor: '#666666'
+        };
+
+    }
+    //marker example
+    //L.marker([45.566169, -73.654492]).addTo(mymap).bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+    var popup = L.popup();
+
+    function onMapClick(e) {
+        popup
+            .setLatLng(e.latlng)
+            .setContent("You clicked the map at " + e.latlng.toString() )
+            .openOn(mymap);
+    }
+    mymap.on('click', onMapClick);
+
+</script>
+
+
+
+</body>
+</html>
