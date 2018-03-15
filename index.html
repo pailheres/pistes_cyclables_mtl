@@ -76,16 +76,19 @@
 
 
 <script>
-    var tmp_layer_pistes;
-    var tmp_layer_ip251;
-    
-    // load GeoJSON from an external file
-    $.getJSON("data_out/IpBike_251.geojson",function(data_ipbike){
-        // add GeoJSON layer to the map once the file is loaded
-        tmp_layer_ip251 = L.geoJson(data_ipbike);
+    //var pistes = L.layerGroup([tmp_layer_ip251]);
+  /*
+  $.getJSON("./cupcakes/cupcakes.json", function(data) {
+    var geojson = L.geoJson(data, {
+      onEachFeature: function (feature, layer) {
+        layer.bindPopup(feature.properties.name);
+      }
     });
-
-    
+    var map = L.map('cupcake-map').fitBounds(geojson.getBounds());
+    cupcakeTiles.addTo(map);
+    geojson.addTo(map);
+  });
+  */
     
     var cities = L.layerGroup();
 
@@ -115,8 +118,9 @@
       maxZoom: 18,
       keyboard: true,
       zoomControl: true,
-      layers: [streets, cities]
+      layers: [streets]
     });
+
 
     var baseLayers = {
       "streets": streets,
@@ -127,11 +131,26 @@
       "cycling": cycling
     };
 
+    var tmp_layer_pistes;
+    var tmp_layer_ip251;
+/*    
+    // load GeoJSON from an external file
+    $.getJSON("data_out/IpBike_251.geojson",function(data_ipbike){
+        // add GeoJSON layer to the map once the file is loaded
+        tmp_layer_ip251 = L.geoJson(data_ipbike);
+    });
+*/
+
+
+$.getJSON("data_out/IpBike_251.geojson", function(data_ipbike) { tmp_layer_ip251 = L.geoJson(data_ipbike); });
+tmp_layer_ip251.addTo(cities);
+
+
     var overlays = {
-      "Cities": cities
+      "cities" : cities
     };
 
-
+    L.control.layers(baseLayers, overlays).addTo(map);
 
 //    var map = L.map('map', {
 //        center: [45.555555, -73.647647], //ahuntsic
@@ -283,15 +302,6 @@
 //    document.getElementById("chkbox_2").click();
 //    map.addLayer(tmp_layer_pistes);
 //    map.addLayer(tmp_layer_ip251);
-
-    var pistesLayers = {
-      "tmp_layer_ip251": tmp_layer_ip251,
-      "tmp_layer_pistes": tmp_layer_pistes
-    };
-
-    L.control.layers(baseLayers, overlays, pistesLayers).addTo(map);
-    
-    map.addLayer(tmp_layer_ip251);
 </script>
 
 
