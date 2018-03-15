@@ -57,11 +57,12 @@
         maxZoom: 18,
         keyboard: true,
         zoomControl: true,
-        layers: [streets]
+        layers: [satellite]
     });
 
     //control for base (radiobutton) and overlays(checkbox)
     var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
+    //var tmp_layerControl2 = L.control.layers(baseLayers, null, {collapsed:false, position:bottomright}).addTo(map);
     
     //fichier des pistes cyclables de montreal
     var tmp_layer_pistes;
@@ -142,8 +143,8 @@
 
     //marker example
     //L.marker([45.566169, -73.654492]).addTo(map).bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
-    //var popup = L.popup();
-
+    
+    var popup = L.popup();
     function onMapClick(e) {
         popup
             .setLatLng(e.latlng)
@@ -151,6 +152,9 @@
             .openOn(map);
     }
     map.on('click', onMapClick);
+    
+    //add scale at bottom left
+    L.control.scale().addTo(map);
 
 </script>
 
