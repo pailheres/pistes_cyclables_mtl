@@ -28,6 +28,29 @@
 <div id="mapid" style="height: 100%; width: 100%;"></div>
 
 <script>
+    // first list the types in an array
+    var mtl_types_voie = {
+        //0: "null",
+        1: "Chaussée désignée",
+        2: "Accotement asphalté",
+        3: "Bande cyclable",
+        4: "Piste cyclable sur rue",
+        5: "Piste cyclable en site propre",
+        6: "Piste cyclable au niveau du trottoir",
+        7: "Sentier polyvalent",
+        8: "Vélorue"
+        // etc.
+    };
+    var mtl_types_voie2 = {
+        0: "Par défault - Dans le sens de la circulation",
+        11: "Chaussée désignée et chaussée désigné à contresens",
+        13: "Chaussée désignée et bande cyclable dans le sens de la circulation",
+        30: "Une seule bande cyclable à contre sens",
+        31: "Bande cyclable à contre sens et chaussée désignée",
+        33: "Bande cyclable et bande cyclable à contre sens",
+        34: "Bande cyclable en heure de pointe"
+    };
+    
     var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
                  '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
                  'Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -63,29 +86,42 @@
     //control for base (radiobutton) and overlays(checkbox)
     var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
     //var tmp_layerControl2 = L.control.layers(baseLayers, null, {collapsed:false, position:bottomright}).addTo(map);
-    
-    //fichier des pistes cyclables de montreal
-    var tmp_layer_pistes;
-    // load GeoJSON from an external file
-    $.getJSON("data_out/reseau_cyclable_2018_janv2018.geojson",function(data){
-        // add GeoJSON layer to the map once the file is loaded
-        tmp_layer_pistes = L.geoJson(data, { style: f_the_style, onEachFeature: function (feature, layer) {
-            //put properties in a popup table
-            var popupContent = "";
-            popupContent += "<table>";
-            for (var k in feature.properties) {
-                popupContent += "<tr><td>";
-                popupContent += k + '<td>' + String(feature.properties[k]);
-                popupContent += "</td></tr>";
-            }
-            popupContent += "</table>";
-            layer.bindPopup(popupContent);
-        } });
-        tmp_layer_pistes.addTo(map);  //this should be uncomment to have the layer selected by default
-        tmp_layerControl.addOverlay(tmp_layer_pistes, 'pistes_mtl');
-    });
 
-    function f_the_style(feature) {
+    $.getJSON("data_out/reseau_cyclable_2018_janv2018.geojson", f_cb_pistes_mtl_geojson);
+    function f_cb_pistes_mtl_geojson(data) {
+        // iterate over types, filter by that type, and format the layer for that feature type
+        for (var type in mtl_types_voie) {
+            var layer = L.geoJson(data, {
+                style: f_cb_style,
+                onEachFeature: function(feature, layer) {
+                    //put properties in a popup table
+                    var popupContent = "";
+                    popupContent += "<table>";
+                    for (var k in feature.properties) {
+                        popupContent += "<tr><td>";
+                        popupContent += k + '<td>' + String(feature.properties[k]);
+                        if (k == "TYPE_VOIE") {
+                            popupContent += " (" + mtl_types_voie[type] + ")";
+                        }
+                        else if (k == "TYPE_VOIE2") {
+                            popupContent += " (" + mtl_types_voie2[type] + ")";
+                        }
+                        popupContent += "</td></tr>";
+                    }
+                    popupContent += "</table>";
+                    layer.bindPopup(popupContent);
+                }, 
+                filter: function(feature, layer) {
+                    return feature.properties.TYPE_VOIE == type;
+                }
+            })
+            layer.addTo(map);
+            // all done with the layer, add it to the control
+            tmp_layerControl.addOverlay(layer, mtl_types_voie[type]);
+        }
+    }
+
+    function f_cb_style(feature, layer) {
         var tmp_color = '#FF0000';
 
         switch(feature.properties.TYPE_VOIE) {
@@ -128,7 +164,6 @@
 
     }
     
- 
     //fichier commute au travail 6 septembre 2017 
     var tmp_layer_ip251;
     //load GeoJSON from an external file
