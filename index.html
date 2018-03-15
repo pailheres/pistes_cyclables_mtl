@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
     <title>Pistes cyclable de Montreal</title>
 
     <meta charset="utf-8" />
@@ -26,18 +25,7 @@
 </head>
 <body>
 
-<!--div id="id_tile">
-  <input type="radio" name="myRadios" value="0" />roadmap
-  <input type="radio" name="myRadios" value="1" />satellite
-  <input type="radio" name="myRadios" value="2" />terrain
-  <input type="radio" name="myRadios" value="3" />cycling
-  <input type="radio" name="myRadios" value="4" checked="" />mapbox
-</div-->
-<div id="id_layers">
-  <label><input type="checkbox" checked="" name="chkbox_1" id="chkbox_1" onClick="verifyCheckBoxes(1);"/>Pistes_MTL</label>
-  <label><input type="checkbox" checked="" name="chkbox_2" id="chkbox_2" onClick="verifyCheckBoxes(2);"/>IpBike_251</label>
-</div>
-<div id="mapid" style="height: 95%; width: 100%;"></div>
+<div id="mapid" style="height: 100%; width: 100%;"></div>
 
 <script>
     var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
@@ -52,10 +40,17 @@
         ,terrain     = L.tileLayer('http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.png')
         ,cycling     = L.tileLayer('http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
         ;
-    var tileLayer_array = [streets, grayscale, roadmap, satellite, terrain, cycling]
 
-    
-    var mymap = L.map('mapid', {
+    var baseLayers = {
+      "streets": streets,
+      "grayscale": grayscale,
+      "roadmap": roadmap,
+      "satellite": satellite,
+      "terrain": terrain,
+      "cycling": cycling
+    };
+
+    var map = L.map('mapid', {
         center: [45.555555, -73.647647], //ahuntsic
         zoom: 11,
         minZoom: 2, 
@@ -63,14 +58,13 @@
         keyboard: true,
         zoomControl: true,
         layers: [streets]
-    }); 
+    });
+
+    //control for base (radiobutton) and overlays(checkbox)
+    var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
     
-    //mymap.addLayer(tileLayer_array[4]);
-    
+    //fichier des pistes cyclables de montreal
     var tmp_layer_pistes;
-    var tmp_layer_ip251;
-    
-    
     // load GeoJSON from an external file
     $.getJSON("data_out/reseau_cyclable_2018_janv2018.geojson",function(data){
         // add GeoJSON layer to the map once the file is loaded
@@ -86,6 +80,8 @@
             popupContent += "</table>";
             layer.bindPopup(popupContent);
         } });
+        tmp_layer_pistes.addTo(map);  //this should be uncomment to have the layer selected by default
+        tmp_layerControl.addOverlay(tmp_layer_pistes, 'pistes_mtl');
     });
 
     function f_the_style(feature) {
@@ -130,76 +126,32 @@
         };
 
     }
+    
+ 
+    //fichier commute au travail 6 septembre 2017 
+    var tmp_layer_ip251;
+    //load GeoJSON from an external file
+    $.getJSON("data_out/IpBike_251.geojson",function(data_ipbike){
+        // add GeoJSON layer to the map once the file is loaded
+        // Use the data to create a GeoJSON layer and add it to the map
+        tmp_layer_ip251 = L.geoJson(data_ipbike);
+        //tmp_layer_ip251.addTo(map);  //this should be uncomment to have the layer selected by default
+        // Add the geojson layer to the layercontrol
+        tmp_layerControl.addOverlay(tmp_layer_ip251, 'ip251');
+    });
+
     //marker example
-    //L.marker([45.566169, -73.654492]).addTo(mymap).bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
-    var popup = L.popup();
+    //L.marker([45.566169, -73.654492]).addTo(map).bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+    //var popup = L.popup();
 
     function onMapClick(e) {
         popup
             .setLatLng(e.latlng)
             .setContent("You clicked the map at " + e.latlng.toString() )
-            .openOn(mymap);
+            .openOn(map);
     }
-    mymap.on('click', onMapClick);
+    map.on('click', onMapClick);
 
-    // load GeoJSON from an external file
-    $.getJSON("data_out/IpBike_251.geojson",function(data_ipbike){
-        // add GeoJSON layer to the map once the file is loaded
-        tmp_layer_ip251 = L.geoJson(data_ipbike);
-    });
-
-    function verifyCheckBoxes(source) {
-        switch(source) {
-            case 1:
-                if (document.getElementById("chkbox_1").checked == true) {
-                    mymap.addLayer(tmp_layer_pistes);
-                }
-                else {
-                    mymap.removeLayer(tmp_layer_pistes);
-                }
-                break;
-            case 2:
-                if (document.getElementById("chkbox_2").checked == true) {
-                    mymap.addLayer(tmp_layer_ip251);
-                }
-                else {
-                    mymap.removeLayer(tmp_layer_ip251);
-                }
-                break;
-            default:
-                break;
-        }
-    }
-    /*
-    $(function () {
-        //if you have any radio selected by default
-        $('[name="myRadios"]:checked').addClass('selected');
-    });
-    $(document).on('click', '[name="myRadios"]', function () {
-        var $was_selected_val = 100;
-        if (!$(this).hasClass('selected')) {
-            var $was_selected = $('.selected[name="myRadios"]');
-            $was_selected_val = $was_selected.val();
-            if ($was_selected.length != 0){
-                //alert("radio box with value " + $was_selected_val + " was deselected");
-                $was_selected.removeClass('selected');
-            }
-        }
-        $(this).addClass('selected');
-        var $selected = $('.selected[name="myRadios"]');
-        var $selected_val = $selected.val();
-        mymap.removeLayer(tileLayer_array[$was_selected_val]);
-        mymap.addLayer(tileLayer_array[$selected_val]);
-        //g_tile_array[selected_val].addTo(mymap);
-    });
-    */
-    //keep this at the end
-    document.getElementById("chkbox_1").checked = true;
-    document.getElementById("chkbox_2").checked = true;
-    document.getElementById("chkbox_1").click();
-    document.getElementById("chkbox_2").click();
-    mymap.addLayer(tmp_layer_pistes);
-    mymap.addLayer(tmp_layer_ip251);
 </script>
 
 
