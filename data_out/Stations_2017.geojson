@@ -1,0 +1,8741 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.591910825344,
+          45.430740224175
+        ]
+      },
+      "properties": {
+        "code": 7015,
+        "name": "LaSalle / 4e avenue",
+        "latitude": 45.430740224175,
+        "longitude": -73.591910825344
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.586694002151,
+          45.434433534532
+        ]
+      },
+      "properties": {
+        "code": 6714,
+        "name": "LaSalle / S\u00e9n\u00e9cal",
+        "latitude": 45.434433534532,
+        "longitude": -73.586694002151
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582740426064,
+          45.437913800652
+        ]
+      },
+      "properties": {
+        "code": 6712,
+        "name": "LaSalle / Crawford",
+        "latitude": 45.437913800652,
+        "longitude": -73.582740426064
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575568199158,
+          45.444408170605
+        ]
+      },
+      "properties": {
+        "code": 6715,
+        "name": "Natatorium (LaSalle / Rolland)",
+        "latitude": 45.444408170605,
+        "longitude": -73.575568199158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.603540883632,
+          45.446534244545
+        ]
+      },
+      "properties": {
+        "code": 7048,
+        "name": "M\u00e9tro Angrignon",
+        "latitude": 45.446534244545,
+        "longitude": -73.603540883632
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577263355255,
+          45.447553696841
+        ]
+      },
+      "properties": {
+        "code": 7056,
+        "name": "Godin / Bannantyne",
+        "latitude": 45.447553696841,
+        "longitude": -73.577263355255
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.600251190946,
+          45.44990081262
+        ]
+      },
+      "properties": {
+        "code": 7051,
+        "name": "Jogues / Allard",
+        "latitude": 45.44990081262,
+        "longitude": -73.600251190946
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572574853897,
+          45.450729976973
+        ]
+      },
+      "properties": {
+        "code": 6706,
+        "name": "Beatty / de Verdun",
+        "latitude": 45.450729976973,
+        "longitude": -73.572574853897
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5940272,
+          45.45085122
+        ]
+      },
+      "properties": {
+        "code": 6725,
+        "name": "M\u00e9tro Monk (Allard / Beaulieu)",
+        "latitude": 45.45085122,
+        "longitude": -73.5940272
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576814755797,
+          45.45324567429
+        ]
+      },
+      "properties": {
+        "code": 7059,
+        "name": "Argyle / Bannantyne",
+        "latitude": 45.45324567429,
+        "longitude": -73.576814755797
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571877,
+          45.456049
+        ]
+      },
+      "properties": {
+        "code": 6309,
+        "name": "5e avenue / de Verdun",
+        "latitude": 45.456049,
+        "longitude": -73.571877
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.597557,
+          45.456355
+        ]
+      },
+      "properties": {
+        "code": 6744,
+        "name": "Hamilton / Jolicoeur",
+        "latitude": 45.456355,
+        "longitude": -73.597557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.64013027458,
+          45.456358290517
+        ]
+      },
+      "properties": {
+        "code": 6369,
+        "name": "West Broadway / Sherbrooke",
+        "latitude": 45.456358290517,
+        "longitude": -73.64013027458
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57614,
+          45.456365
+        ]
+      },
+      "properties": {
+        "code": 6705,
+        "name": "5e avenue / Bannantyne",
+        "latitude": 45.456365,
+        "longitude": -73.57614
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582143634558,
+          45.456498000832
+        ]
+      },
+      "properties": {
+        "code": 6707,
+        "name": "M\u00e9tro Jolicoeur (Drake / de S\u00e8ve)",
+        "latitude": 45.456498000832,
+        "longitude": -73.582143634558
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.590528595814,
+          45.457596824621
+        ]
+      },
+      "properties": {
+        "code": 6754,
+        "name": "Eadie / Dubois",
+        "latitude": 45.457596824621,
+        "longitude": -73.590528595814
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.567528240965,
+          45.457893526113
+        ]
+      },
+      "properties": {
+        "code": 7057,
+        "name": "2e avenue / Wellington",
+        "latitude": 45.457893526113,
+        "longitude": -73.567528240965
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.637405150221,
+          45.459233060281
+        ]
+      },
+      "properties": {
+        "code": 7010,
+        "name": "Belmore / Sherbrooke",
+        "latitude": 45.459233060281,
+        "longitude": -73.637405150221
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572092056274,
+          45.459487694541
+        ]
+      },
+      "properties": {
+        "code": 6426,
+        "name": "M\u00e9tro Verdun (Willibrord / de Verdun)",
+        "latitude": 45.459487694541,
+        "longitude": -73.572092056274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.543955683708,
+          45.459985776409
+        ]
+      },
+      "properties": {
+        "code": 6428,
+        "name": "Berlioz / de l'\u00cele des Soeurs",
+        "latitude": 45.459985776409,
+        "longitude": -73.543955683708
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.634072542191,
+          45.460729363533
+        ]
+      },
+      "properties": {
+        "code": 6719,
+        "name": "Park Row O / Sherbrooke",
+        "latitude": 45.460729363533,
+        "longitude": -73.634072542191
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.567306995392,
+          45.461077990108
+        ]
+      },
+      "properties": {
+        "code": 7058,
+        "name": "Gordon / Wellington",
+        "latitude": 45.461077990108,
+        "longitude": -73.567306995392
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584039,
+          45.461685
+        ]
+      },
+      "properties": {
+        "code": 6709,
+        "name": "Le Caron / Marc-Sauvalle ",
+        "latitude": 45.461685,
+        "longitude": -73.584039
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59665,
+          45.462362
+        ]
+      },
+      "properties": {
+        "code": 6742,
+        "name": "Briand / le Caron",
+        "latitude": 45.462362,
+        "longitude": -73.59665
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565845,
+          45.462742
+        ]
+      },
+      "properties": {
+        "code": 6425,
+        "name": "Ross / de l'\u00c9glise",
+        "latitude": 45.462742,
+        "longitude": -73.565845
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571568952175,
+          45.463001087332
+        ]
+      },
+      "properties": {
+        "code": 7060,
+        "name": "de l'\u00c9glise / de Verdun",
+        "latitude": 45.463001087332,
+        "longitude": -73.571568952175
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575879335403,
+          45.463253535853
+        ]
+      },
+      "properties": {
+        "code": 6379,
+        "name": "de l'\u00c9glise / Bannantyne",
+        "latitude": 45.463253535853,
+        "longitude": -73.575879335403
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.625569939613,
+          45.464315469863
+        ]
+      },
+      "properties": {
+        "code": 7013,
+        "name": "Benny Crescent / Benny",
+        "latitude": 45.464315469863,
+        "longitude": -73.625569939613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.623295,
+          45.466569
+        ]
+      },
+      "properties": {
+        "code": 6718,
+        "name": "Grand Boulevard / Sherbrooke",
+        "latitude": 45.466569,
+        "longitude": -73.623295
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.63170415163,
+          45.466914254987
+        ]
+      },
+      "properties": {
+        "code": 6115,
+        "name": "Benny / de Monkland",
+        "latitude": 45.466914254987,
+        "longitude": -73.63170415163
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.54259,
+          45.46714
+        ]
+      },
+      "properties": {
+        "code": 6429,
+        "name": "Place du Commerce",
+        "latitude": 45.46714,
+        "longitude": -73.54259
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.570769,
+          45.467369
+        ]
+      },
+      "properties": {
+        "code": 6341,
+        "name": "Regina / de Verdun",
+        "latitude": 45.467369,
+        "longitude": -73.570769
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593917843245,
+          45.467665653866
+        ]
+      },
+      "properties": {
+        "code": 7054,
+        "name": "Cote St-Paul / St-Ambroise",
+        "latitude": 45.467665653866,
+        "longitude": -73.593917843245
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.618574738503,
+          45.469046091218
+        ]
+      },
+      "properties": {
+        "code": 6363,
+        "name": "de Clifton / Sherbrooke",
+        "latitude": 45.469046091218,
+        "longitude": -73.618574738503
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6162,
+          45.4703
+        ]
+      },
+      "properties": {
+        "code": 6415,
+        "name": "Wilson / Sherbrooke",
+        "latitude": 45.4703,
+        "longitude": -73.6162
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.589848,
+          45.470303
+        ]
+      },
+      "properties": {
+        "code": 6313,
+        "name": "Palm / St-Remi",
+        "latitude": 45.470303,
+        "longitude": -73.589848
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565422408283,
+          45.470696426047
+        ]
+      },
+      "properties": {
+        "code": 6427,
+        "name": "M\u00e9tro Lasalle (de Rushbrooke / Caisse)",
+        "latitude": 45.470696426047,
+        "longitude": -73.565422408283
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.627206087112,
+          45.471161595177
+        ]
+      },
+      "properties": {
+        "code": 6263,
+        "name": "de Hampton / de Monkland",
+        "latitude": 45.471161595177,
+        "longitude": -73.627206087112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.613924,
+          45.471743
+        ]
+      },
+      "properties": {
+        "code": 6354,
+        "name": "Marcil / Sherbrooke",
+        "latitude": 45.471743,
+        "longitude": -73.613924
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58247,
+          45.471926
+        ]
+      },
+      "properties": {
+        "code": 6724,
+        "name": "Square Sir-Georges-\u00c9tienne-Cartier / L\u00e9a Roback",
+        "latitude": 45.471926,
+        "longitude": -73.58247
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.539285,
+          45.472503
+        ]
+      },
+      "properties": {
+        "code": 6016,
+        "name": "Jacques-Le Ber / de la Pointe Nord",
+        "latitude": 45.472503,
+        "longitude": -73.539285
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585389778018,
+          45.472668008515
+        ]
+      },
+      "properties": {
+        "code": 6402,
+        "name": "Square Sir-Georges-Etienne-Cartier / Ste-\u00c9milie",
+        "latitude": 45.472668008515,
+        "longitude": -73.585389778018
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.603597283363,
+          45.474138234044
+        ]
+      },
+      "properties": {
+        "code": 6080,
+        "name": "M\u00e9tro Vend\u00f4me",
+        "latitude": 45.474138234044,
+        "longitude": -73.603597283363
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.604058623314,
+          45.474419302637
+        ]
+      },
+      "properties": {
+        "code": 6418,
+        "name": "de Vend\u00f4me / de Maisonneuve",
+        "latitude": 45.474419302637,
+        "longitude": -73.604058623314
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.623504638672,
+          45.47514154022
+        ]
+      },
+      "properties": {
+        "code": 6339,
+        "name": "d'Oxford / de Monkland",
+        "latitude": 45.47514154022,
+        "longitude": -73.623504638672
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5646007,
+          45.4757434
+        ]
+      },
+      "properties": {
+        "code": 6349,
+        "name": "Ryde / Charlevoix",
+        "latitude": 45.4757434,
+        "longitude": -73.5646007
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.621437996626,
+          45.477106751898
+        ]
+      },
+      "properties": {
+        "code": 6356,
+        "name": "de Monkland / Girouard",
+        "latitude": 45.477106751898,
+        "longitude": -73.621437996626
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.587238,
+          45.477249
+        ]
+      },
+      "properties": {
+        "code": 6375,
+        "name": "M\u00e9tro Place St-Henri (St-Ferdinand / St-Jacques)",
+        "latitude": 45.477249,
+        "longitude": -73.587238
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615372180939,
+          45.477353335236
+        ]
+      },
+      "properties": {
+        "code": 6416,
+        "name": "Notre-Dame-de-Gr\u00e2ce / D\u00e9carie",
+        "latitude": 45.477353335236,
+        "longitude": -73.615372180939
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.600169420242,
+          45.477428564833
+        ]
+      },
+      "properties": {
+        "code": 6434,
+        "name": "Victoria / de Maisonneuve",
+        "latitude": 45.477428564833,
+        "longitude": -73.600169420242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559038,
+          45.477923
+        ]
+      },
+      "properties": {
+        "code": 6732,
+        "name": "Fortune / Wellington",
+        "latitude": 45.477923,
+        "longitude": -73.559038
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569651246071,
+          45.478227873091
+        ]
+      },
+      "properties": {
+        "code": 10002,
+        "name": "M\u00e9tro Charlevoix (Centre / Charlevoix)",
+        "latitude": 45.478227873091,
+        "longitude": -73.569651246071
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.62489938736,
+          45.478431591573
+        ]
+      },
+      "properties": {
+        "code": 7011,
+        "name": "Girouard / de Terrebonne",
+        "latitude": 45.478431591573,
+        "longitude": -73.62489938736
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61979,
+          45.479483
+        ]
+      },
+      "properties": {
+        "code": 6101,
+        "name": "M\u00e9tro Villa-Maria (D\u00e9carie / de Monkland)",
+        "latitude": 45.479483,
+        "longitude": -73.61979
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56385,
+          45.47968
+        ]
+      },
+      "properties": {
+        "code": 6377,
+        "name": "Grand Trunk / Hibernia",
+        "latitude": 45.47968,
+        "longitude": -73.56385
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.555921018124,
+          45.479930420657
+        ]
+      },
+      "properties": {
+        "code": 7070,
+        "name": "Bourgeoys / Favard",
+        "latitude": 45.479930420657,
+        "longitude": -73.555921018124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577598631382,
+          45.480208228
+        ]
+      },
+      "properties": {
+        "code": 6406,
+        "name": "March\u00e9 Atwater",
+        "latitude": 45.480208228,
+        "longitude": -73.577598631382
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.586609512568,
+          45.480507984524
+        ]
+      },
+      "properties": {
+        "code": 6414,
+        "name": "Laporte / St-Antoine",
+        "latitude": 45.480507984524,
+        "longitude": -73.586609512568
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568460345268,
+          45.480914067718
+        ]
+      },
+      "properties": {
+        "code": 7053,
+        "name": "Ropery / Augustin-Cantin",
+        "latitude": 45.480914067718,
+        "longitude": -73.568460345268
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579348772764,
+          45.481184406986
+        ]
+      },
+      "properties": {
+        "code": 7055,
+        "name": "Greene / Workman",
+        "latitude": 45.481184406986,
+        "longitude": -73.579348772764
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56475353241,
+          45.481490813889
+        ]
+      },
+      "properties": {
+        "code": 6350,
+        "name": "Island / Centre",
+        "latitude": 45.481490813889,
+        "longitude": -73.56475353241
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6,
+          45.4816
+        ]
+      },
+      "properties": {
+        "code": 6435,
+        "name": "Victoria Hall",
+        "latitude": 45.4816,
+        "longitude": -73.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57486278,
+          45.48203995
+        ]
+      },
+      "properties": {
+        "code": 6405,
+        "name": "Duvernay / Charlevoix",
+        "latitude": 45.48203995,
+        "longitude": -73.57486278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58452544,
+          45.482779
+        ]
+      },
+      "properties": {
+        "code": 6029,
+        "name": "Bel Air / St-Antoine",
+        "latitude": 45.482779,
+        "longitude": -73.58452544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.590843379498,
+          45.482826026243
+        ]
+      },
+      "properties": {
+        "code": 6433,
+        "name": "Hillside / Ste-Catherine",
+        "latitude": 45.482826026243,
+        "longitude": -73.590843379498
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562186658382,
+          45.483005619293
+        ]
+      },
+      "properties": {
+        "code": 7052,
+        "name": "Shearer / Centre",
+        "latitude": 45.483005619293,
+        "longitude": -73.562186658382
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57731164,
+          45.48392802
+        ]
+      },
+      "properties": {
+        "code": 6407,
+        "name": "Charlevoix / Lionel-Groulx",
+        "latitude": 45.48392802,
+        "longitude": -73.57731164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5634366,
+          45.48401829
+        ]
+      },
+      "properties": {
+        "code": 6921,
+        "name": "Augustin-Cantin / Shearer",
+        "latitude": 45.48401829,
+        "longitude": -73.5634366
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.628834,
+          45.484489
+        ]
+      },
+      "properties": {
+        "code": 6420,
+        "name": "Trans Island / Queen-Mary",
+        "latitude": 45.484489,
+        "longitude": -73.628834
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560118675232,
+          45.484895660386
+        ]
+      },
+      "properties": {
+        "code": 6727,
+        "name": "de Montmorency / Richardson",
+        "latitude": 45.484895660386,
+        "longitude": -73.560118675232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571963310242,
+          45.485047979823
+        ]
+      },
+      "properties": {
+        "code": 6403,
+        "name": "Georges-Vanier / Notre-Dame",
+        "latitude": 45.485047979823,
+        "longitude": -73.571963310242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577514,
+          45.485889
+        ]
+      },
+      "properties": {
+        "code": 6404,
+        "name": "Quesnel / Vinet",
+        "latitude": 45.485889,
+        "longitude": -73.577514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573746979237,
+          45.486219391848
+        ]
+      },
+      "properties": {
+        "code": 6409,
+        "name": "Lionel-Groulx / George-Vanier",
+        "latitude": 45.486219391848,
+        "longitude": -73.573746979237
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.595234155655,
+          45.486452096464
+        ]
+      },
+      "properties": {
+        "code": 6436,
+        "name": "C\u00f4te St-Antoine / Clarke",
+        "latitude": 45.486452096464,
+        "longitude": -73.595234155655
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569428622723,
+          45.486918574551
+        ]
+      },
+      "properties": {
+        "code": 6741,
+        "name": "Notre-Dame / Chatham",
+        "latitude": 45.486918574551,
+        "longitude": -73.569428622723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58929306,
+          45.48697062
+        ]
+      },
+      "properties": {
+        "code": 6432,
+        "name": "de Maisonneuve / Greene",
+        "latitude": 45.48697062,
+        "longitude": -73.58929306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565185368061,
+          45.487601163788
+        ]
+      },
+      "properties": {
+        "code": 7068,
+        "name": "Basin / Richmond",
+        "latitude": 45.487601163788,
+        "longitude": -73.565185368061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569632470608,
+          45.48799111066
+        ]
+      },
+      "properties": {
+        "code": 6401,
+        "name": "des Seigneurs / Workman",
+        "latitude": 45.48799111066,
+        "longitude": -73.569632470608
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.583537042141,
+          45.488877338461
+        ]
+      },
+      "properties": {
+        "code": 6194,
+        "name": "Tupper / Atwater",
+        "latitude": 45.488877338461,
+        "longitude": -73.583537042141
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57656,
+          45.4891
+        ]
+      },
+      "properties": {
+        "code": 6408,
+        "name": "M\u00e9tro Georges-Vanier (St-Antoine / Canning)",
+        "latitude": 45.4891,
+        "longitude": -73.57656
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.564139306545,
+          45.489544861061
+        ]
+      },
+      "properties": {
+        "code": 7050,
+        "name": "Ottawa / William",
+        "latitude": 45.489544861061,
+        "longitude": -73.564139306545
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582445,
+          45.489609
+        ]
+      },
+      "properties": {
+        "code": 6084,
+        "name": "Lambert-Closse / Tupper",
+        "latitude": 45.489609,
+        "longitude": -73.582445
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.567091,
+          45.489951
+        ]
+      },
+      "properties": {
+        "code": 6088,
+        "name": "Guy / Notre-Dame",
+        "latitude": 45.489951,
+        "longitude": -73.567091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562389165163,
+          45.490873602425
+        ]
+      },
+      "properties": {
+        "code": 7049,
+        "name": "Ottawa / St-Thomas",
+        "latitude": 45.490873602425,
+        "longitude": -73.562389165163
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.587630093098,
+          45.49122585476
+        ]
+      },
+      "properties": {
+        "code": 6093,
+        "name": "Atwater / Sherbrooke",
+        "latitude": 45.49122585476,
+        "longitude": -73.587630093098
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580782413483,
+          45.491229615316
+        ]
+      },
+      "properties": {
+        "code": 7076,
+        "name": "Tupper / du Fort",
+        "latitude": 45.491229615316,
+        "longitude": -73.580782413483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.586012721062,
+          45.491383797898
+        ]
+      },
+      "properties": {
+        "code": 7081,
+        "name": "Lincoln / Lambert Closse",
+        "latitude": 45.491383797898,
+        "longitude": -73.586012721062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.633649,
+          45.491513
+        ]
+      },
+      "properties": {
+        "code": 6419,
+        "name": "Beaucourt / de la C\u00f4te-Ste-Catherine",
+        "latitude": 45.491513,
+        "longitude": -73.633649
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576767146587,
+          45.491686521008
+        ]
+      },
+      "properties": {
+        "code": 6091,
+        "name": "Joseph-Manceau / Ren\u00e9-L\u00e9vesque",
+        "latitude": 45.491686521008,
+        "longitude": -73.576767146587
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584006428719,
+          45.491800276787
+        ]
+      },
+      "properties": {
+        "code": 6095,
+        "name": "Chomedey / de Maisonneuve",
+        "latitude": 45.491800276787,
+        "longitude": -73.584006428719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.581088,
+          45.492504
+        ]
+      },
+      "properties": {
+        "code": 6097,
+        "name": "Towers / Ste-Catherine",
+        "latitude": 45.492504,
+        "longitude": -73.581088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.557978272438,
+          45.492825309473
+        ]
+      },
+      "properties": {
+        "code": 6748,
+        "name": "Young / Wellington",
+        "latitude": 45.492825309473,
+        "longitude": -73.557978272438
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.564817905426,
+          45.493029012584
+        ]
+      },
+      "properties": {
+        "code": 6087,
+        "name": "Notre-Dame / de la Montagne",
+        "latitude": 45.493029012584,
+        "longitude": -73.564817905426
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.583836,
+          45.493034
+        ]
+      },
+      "properties": {
+        "code": 6102,
+        "name": "Lincoln / du Fort",
+        "latitude": 45.493034,
+        "longitude": -73.583836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568575680256,
+          45.49356916134
+        ]
+      },
+      "properties": {
+        "code": 6096,
+        "name": "Lucien L'Allier / St-Jacques",
+        "latitude": 45.49356916134,
+        "longitude": -73.568575680256
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561964035034,
+          45.493595557118
+        ]
+      },
+      "properties": {
+        "code": 6086,
+        "name": "Murray / William",
+        "latitude": 45.493595557118,
+        "longitude": -73.561964035034
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579186,
+          45.493718
+        ]
+      },
+      "properties": {
+        "code": 6107,
+        "name": "St-Mathieu /Ste-Catherine",
+        "latitude": 45.493718,
+        "longitude": -73.579186
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.563279435257,
+          45.493985695907
+        ]
+      },
+      "properties": {
+        "code": 7047,
+        "name": "Muray / Notre-Dame",
+        "latitude": 45.493985695907,
+        "longitude": -73.563279435257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.583368,
+          45.494514
+        ]
+      },
+      "properties": {
+        "code": 6743,
+        "name": "St-Marc / Sherbrooke",
+        "latitude": 45.494514,
+        "longitude": -73.583368
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.638772,
+          45.494805
+        ]
+      },
+      "properties": {
+        "code": 6717,
+        "name": "de Kent / Victoria",
+        "latitude": 45.494805,
+        "longitude": -73.638772
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57108,
+          45.49486
+        ]
+      },
+      "properties": {
+        "code": 6090,
+        "name": "M\u00e9tro Lucien-L'Allier (Lucien l'Allier / Argyle)",
+        "latitude": 45.49486,
+        "longitude": -73.57108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56328,
+          45.4952
+        ]
+      },
+      "properties": {
+        "code": 6085,
+        "name": "Notre-Dame / Peel",
+        "latitude": 45.4952,
+        "longitude": -73.56328
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582595586777,
+          45.495789104812
+        ]
+      },
+      "properties": {
+        "code": 7071,
+        "name": "St-Mathieu / Sherbrooke",
+        "latitude": 45.495789104812,
+        "longitude": -73.582595586777
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56009721756,
+          45.495894391755
+        ]
+      },
+      "properties": {
+        "code": 6159,
+        "name": "Ann / William",
+        "latitude": 45.495894391755,
+        "longitude": -73.56009721756
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57348,
+          45.49606
+        ]
+      },
+      "properties": {
+        "code": 6092,
+        "name": "Crescent / Ren\u00e9-L\u00e9vesque",
+        "latitude": 45.49606,
+        "longitude": -73.57348
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.629822,
+          45.496302
+        ]
+      },
+      "properties": {
+        "code": 6423,
+        "name": "H\u00f4pital g\u00e9n\u00e9ral juif (de la C\u00f4te Ste-Catherine / L\u00e9gar\u00e9)",
+        "latitude": 45.496302,
+        "longitude": -73.629822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57616,
+          45.49642
+        ]
+      },
+      "properties": {
+        "code": 6098,
+        "name": "Bishop / Ste-Catherine",
+        "latitude": 45.49642,
+        "longitude": -73.57616
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.620154559612,
+          45.496457147257
+        ]
+      },
+      "properties": {
+        "code": 6316,
+        "name": "Gatineau / Swail",
+        "latitude": 45.496457147257,
+        "longitude": -73.620154559612
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57851,
+          45.49659
+        ]
+      },
+      "properties": {
+        "code": 6100,
+        "name": "Mackay / de Maisonneuve",
+        "latitude": 45.49659,
+        "longitude": -73.57851
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.62331956625,
+          45.496850543298
+        ]
+      },
+      "properties": {
+        "code": 6315,
+        "name": "M\u00e9tro C\u00f4te-des-Neiges (Lacombe / de la C\u00f4te-des-Neiges)",
+        "latitude": 45.496850543298,
+        "longitude": -73.62331956625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559222649783,
+          45.497023851004
+        ]
+      },
+      "properties": {
+        "code": 7062,
+        "name": "Nazareth / William",
+        "latitude": 45.497023851004,
+        "longitude": -73.559222649783
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.555237054825,
+          45.497595054136
+        ]
+      },
+      "properties": {
+        "code": 6049,
+        "name": "Queen / Wellington",
+        "latitude": 45.497595054136,
+        "longitude": -73.555237054825
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568646,
+          45.497697
+        ]
+      },
+      "properties": {
+        "code": 6057,
+        "name": "Peel / avenue des Canadiens de Montr\u00e9al",
+        "latitude": 45.497697,
+        "longitude": -73.568646
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55614096,
+          45.4979738
+        ]
+      },
+      "properties": {
+        "code": 6048,
+        "name": "Queen / Ottawa",
+        "latitude": 45.4979738,
+        "longitude": -73.55614096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55266482,
+          45.4980302
+        ]
+      },
+      "properties": {
+        "code": 6052,
+        "name": "de la Commune / King",
+        "latitude": 45.4980302,
+        "longitude": -73.55266482
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577609360218,
+          45.498151094975
+        ]
+      },
+      "properties": {
+        "code": 6099,
+        "name": "Crescent / de Maisonneuve",
+        "latitude": 45.498151094975,
+        "longitude": -73.577609360218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57422709465,
+          45.498639303304
+        ]
+      },
+      "properties": {
+        "code": 6062,
+        "name": "Drummond / Ste-Catherine",
+        "latitude": 45.498639303304,
+        "longitude": -73.57422709465
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55256289,
+          45.4986731
+        ]
+      },
+      "properties": {
+        "code": 6050,
+        "name": "de la Commune / McGill",
+        "latitude": 45.4986731,
+        "longitude": -73.55256289
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56671,
+          45.49871
+        ]
+      },
+      "properties": {
+        "code": 6046,
+        "name": "M\u00e9tro Bonaventure (de la Gaucheti\u00e8re / Mansfield)",
+        "latitude": 45.49871,
+        "longitude": -73.56671
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571767508984,
+          45.499325510285
+        ]
+      },
+      "properties": {
+        "code": 6058,
+        "name": "Cypress / Peel",
+        "latitude": 45.499325510285,
+        "longitude": -73.571767508984
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57591,
+          45.49947
+        ]
+      },
+      "properties": {
+        "code": 6063,
+        "name": "Drummond / de Maisonneuve",
+        "latitude": 45.49947,
+        "longitude": -73.57591
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57884854,
+          45.4996771
+        ]
+      },
+      "properties": {
+        "code": 6065,
+        "name": "de la Montagne / Sherbrooke",
+        "latitude": 45.4996771,
+        "longitude": -73.57884854
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55566,
+          45.49975
+        ]
+      },
+      "properties": {
+        "code": 6038,
+        "name": "McGill / Place d'Youville",
+        "latitude": 45.49975,
+        "longitude": -73.55566
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.629298,
+          45.499757
+        ]
+      },
+      "properties": {
+        "code": 6125,
+        "name": "Ellendale / de la C\u00f4te-des-Neiges",
+        "latitude": 45.499757,
+        "longitude": -73.629298
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.618105,
+          45.500035
+        ]
+      },
+      "properties": {
+        "code": 6928,
+        "name": "Jean-Brillant / McKenna",
+        "latitude": 45.500035,
+        "longitude": -73.618105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560412377119,
+          45.500042728642
+        ]
+      },
+      "properties": {
+        "code": 7079,
+        "name": "Gauvin / Notre-Dame",
+        "latitude": 45.500042728642,
+        "longitude": -73.560412377119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56928,
+          45.50015
+        ]
+      },
+      "properties": {
+        "code": 6060,
+        "name": "Mansfield / Ren\u00e9-L\u00e9vesque",
+        "latitude": 45.50015,
+        "longitude": -73.56928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571126461029,
+          45.500233546666
+        ]
+      },
+      "properties": {
+        "code": 6005,
+        "name": "Metcalfe / du Square Dorchester",
+        "latitude": 45.500233546666,
+        "longitude": -73.571126461029
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57507,
+          45.50038
+        ]
+      },
+      "properties": {
+        "code": 6064,
+        "name": "M\u00e9tro Peel (de Maisonneuve / Stanley)",
+        "latitude": 45.50038,
+        "longitude": -73.57507
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565448224545,
+          45.500605780951
+        ]
+      },
+      "properties": {
+        "code": 6042,
+        "name": "de la Gaucheti\u00e8re / Robert-Bourassa",
+        "latitude": 45.500605780951,
+        "longitude": -73.565448224545
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561082,
+          45.500674
+        ]
+      },
+      "properties": {
+        "code": 6041,
+        "name": "St-Jacques / Gauvin",
+        "latitude": 45.500674,
+        "longitude": -73.561082
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572156429291,
+          45.500684739422
+        ]
+      },
+      "properties": {
+        "code": 6059,
+        "name": "Metcalfe / Ste-Catherine",
+        "latitude": 45.500684739422,
+        "longitude": -73.572156429291
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.558826,
+          45.500779
+        ]
+      },
+      "properties": {
+        "code": 6039,
+        "name": "McGill / des R\u00e9collets",
+        "latitude": 45.500779,
+        "longitude": -73.558826
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.620625287294,
+          45.501194507752
+        ]
+      },
+      "properties": {
+        "code": 7012,
+        "name": "McKenna / \u00c9douard-Montpetit",
+        "latitude": 45.501194507752,
+        "longitude": -73.620625287294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.633161,
+          45.501302
+        ]
+      },
+      "properties": {
+        "code": 6312,
+        "name": "de Kent / de la C\u00f4te-des-Neiges",
+        "latitude": 45.501302,
+        "longitude": -73.633161
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5718136,
+          45.5014018
+        ]
+      },
+      "properties": {
+        "code": 6066,
+        "name": "Mansfield / Ste-Catherine",
+        "latitude": 45.5014018,
+        "longitude": -73.5718136
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574130535126,
+          45.501714949329
+        ]
+      },
+      "properties": {
+        "code": 6072,
+        "name": "Metcalfe / de Maisonneuve",
+        "latitude": 45.501714949329,
+        "longitude": -73.574130535126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57128,
+          45.50176
+        ]
+      },
+      "properties": {
+        "code": 6061,
+        "name": "Ste-Catherine / McGill College",
+        "latitude": 45.50176,
+        "longitude": -73.57128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.555156588554,
+          45.501974378779
+        ]
+      },
+      "properties": {
+        "code": 6037,
+        "name": "St-Nicolas / Place d'Youville",
+        "latitude": 45.501974378779,
+        "longitude": -73.555156588554
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56295,
+          45.50206
+        ]
+      },
+      "properties": {
+        "code": 6043,
+        "name": "Square Victoria",
+        "latitude": 45.50206,
+        "longitude": -73.56295
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57325211,
+          45.5022921
+        ]
+      },
+      "properties": {
+        "code": 6027,
+        "name": "de Maisonneuve / Mansfield",
+        "latitude": 45.5022921,
+        "longitude": -73.57325211
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565138,
+          45.502326
+        ]
+      },
+      "properties": {
+        "code": 6053,
+        "name": "Belmont / du Beaver Hall",
+        "latitude": 45.502326,
+        "longitude": -73.565138
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.566582798958,
+          45.502350361368
+        ]
+      },
+      "properties": {
+        "code": 6738,
+        "name": "Union / Ren\u00e9-L\u00e9vesque",
+        "latitude": 45.502350361368,
+        "longitude": -73.566582798958
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.527503013611,
+          45.502602268298
+        ]
+      },
+      "properties": {
+        "code": 6359,
+        "name": "Parc Plage",
+        "latitude": 45.502602268298,
+        "longitude": -73.527503013611
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559134304523,
+          45.502786498026
+        ]
+      },
+      "properties": {
+        "code": 6040,
+        "name": "St-Jacques / St-Pierre",
+        "latitude": 45.502786498026,
+        "longitude": -73.559134304523
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57505,
+          45.50297
+        ]
+      },
+      "properties": {
+        "code": 6068,
+        "name": "Mansfield / Sherbrooke",
+        "latitude": 45.50297,
+        "longitude": -73.57505
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573986,
+          45.503063
+        ]
+      },
+      "properties": {
+        "code": 6424,
+        "name": "du Pr\u00e9sident-Kennedy / McGill College",
+        "latitude": 45.503063,
+        "longitude": -73.573986
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568404018879,
+          45.503450096028
+        ]
+      },
+      "properties": {
+        "code": 6413,
+        "name": "Cathcart / Union",
+        "latitude": 45.503450096028,
+        "longitude": -73.568404018879
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572103,
+          45.503475
+        ]
+      },
+      "properties": {
+        "code": 6067,
+        "name": "de Maisonneuve / Robert-Bourassa",
+        "latitude": 45.503475,
+        "longitude": -73.572103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56170386076,
+          45.503726737074
+        ]
+      },
+      "properties": {
+        "code": 6708,
+        "name": "Place Jean-Paul Riopelle (Viger / de Bleury)",
+        "latitude": 45.503726737074,
+        "longitude": -73.56170386076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568178713322,
+          45.503805390326
+        ]
+      },
+      "properties": {
+        "code": 6745,
+        "name": "Cathcart / Place Phillips",
+        "latitude": 45.503805390326,
+        "longitude": -73.568178713322
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568696379662,
+          45.504094887727
+        ]
+      },
+      "properties": {
+        "code": 6083,
+        "name": "Square Phillips",
+        "latitude": 45.504094887727,
+        "longitude": -73.568696379662
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.553469479084,
+          45.504242455634
+        ]
+      },
+      "properties": {
+        "code": 6036,
+        "name": "de la Commune / St-Sulpice",
+        "latitude": 45.504242455634,
+        "longitude": -73.553469479084
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572542667389,
+          45.504407470403
+        ]
+      },
+      "properties": {
+        "code": 7080,
+        "name": "President-Kennedy / Robert Bourassa",
+        "latitude": 45.504407470403,
+        "longitude": -73.572542667389
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.617652058601,
+          45.50450093352
+        ]
+      },
+      "properties": {
+        "code": 7014,
+        "name": "\u00c9douard-Montpetit (Universit\u00e9 de Montr\u00e9al)",
+        "latitude": 45.50450093352,
+        "longitude": -73.617652058601
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559163808823,
+          45.504542289872
+        ]
+      },
+      "properties": {
+        "code": 6031,
+        "name": "St-Antoine / St-Fran\u00e7ois-Xavier",
+        "latitude": 45.504542289872,
+        "longitude": -73.559163808823
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561188876629,
+          45.504777268566
+        ]
+      },
+      "properties": {
+        "code": 6035,
+        "name": "Viger / Jeanne Mance",
+        "latitude": 45.504777268566,
+        "longitude": -73.561188876629
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571703135967,
+          45.504993448098
+        ]
+      },
+      "properties": {
+        "code": 7069,
+        "name": "Union / President-Kennedy",
+        "latitude": 45.504993448098,
+        "longitude": -73.571703135967
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57069,
+          45.50501
+        ]
+      },
+      "properties": {
+        "code": 6073,
+        "name": "de Maisonneuve / Aylmer",
+        "latitude": 45.50501,
+        "longitude": -73.57069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5676195,
+          45.50537693
+        ]
+      },
+      "properties": {
+        "code": 6081,
+        "name": "St-Alexandre / Ste-Catherine",
+        "latitude": 45.50537693,
+        "longitude": -73.5676195
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.621165752411,
+          45.50540324702
+        ]
+      },
+      "properties": {
+        "code": 6310,
+        "name": "de Darlington / de la C\u00f4te-Ste-Catherine",
+        "latitude": 45.50540324702,
+        "longitude": -73.621165752411
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.629593,
+          45.505973
+        ]
+      },
+      "properties": {
+        "code": 6240,
+        "name": "Hudson / de Kent",
+        "latitude": 45.505973,
+        "longitude": -73.629593
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55976,
+          45.50623
+        ]
+      },
+      "properties": {
+        "code": 6032,
+        "name": "M\u00e9tro Place-d'Armes (Viger / St-Urbain)",
+        "latitude": 45.50623,
+        "longitude": -73.55976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571390658617,
+          45.506251032568
+        ]
+      },
+      "properties": {
+        "code": 7067,
+        "name": "City Councillors / du President-Kennedy",
+        "latitude": 45.506251032568,
+        "longitude": -73.571390658617
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.52457672,
+          45.5063732
+        ]
+      },
+      "properties": {
+        "code": 6502,
+        "name": "Casino de Montr\u00e9al",
+        "latitude": 45.5063732,
+        "longitude": -73.52457672
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.556465506554,
+          45.506421152076
+        ]
+      },
+      "properties": {
+        "code": 6749,
+        "name": "St-Jacques / St-Laurent",
+        "latitude": 45.506421152076,
+        "longitude": -73.556465506554
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57634872,
+          45.5064484
+        ]
+      },
+      "properties": {
+        "code": 6070,
+        "name": "Milton / University",
+        "latitude": 45.5064484,
+        "longitude": -73.57634872
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561395406723,
+          45.507078128115
+        ]
+      },
+      "properties": {
+        "code": 7066,
+        "name": "St-Urbain / de la Gaucheti\u00e8re",
+        "latitude": 45.507078128115,
+        "longitude": -73.561395406723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56917,
+          45.50708
+        ]
+      },
+      "properties": {
+        "code": 6078,
+        "name": "M\u00e9tro Place-des-Arts (de Maisonneuve / de Bleury)",
+        "latitude": 45.50708,
+        "longitude": -73.56917
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.555119037628,
+          45.507143919284
+        ]
+      },
+      "properties": {
+        "code": 6025,
+        "name": "Notre-Dame / St-Gabriel",
+        "latitude": 45.507143919284,
+        "longitude": -73.555119037628
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615085,
+          45.50723
+        ]
+      },
+      "properties": {
+        "code": 6927,
+        "name": "\u00c9douard-Montpetit / Stirling",
+        "latitude": 45.50723,
+        "longitude": -73.615085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.551836013794,
+          45.50761009451
+        ]
+      },
+      "properties": {
+        "code": 6026,
+        "name": "de la Commune / Place Jacques-Cartier",
+        "latitude": 45.50761009451,
+        "longitude": -73.551836013794
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.578859921836,
+          45.507661695765
+        ]
+      },
+      "properties": {
+        "code": 6047,
+        "name": "University / Prince-Arthur",
+        "latitude": 45.507661695765,
+        "longitude": -73.578859921836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57208,
+          45.50781
+        ]
+      },
+      "properties": {
+        "code": 6203,
+        "name": "Hutchison / Sherbrooke",
+        "latitude": 45.50781,
+        "longitude": -73.57208
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.563112,
+          45.5079
+        ]
+      },
+      "properties": {
+        "code": 6034,
+        "name": "St-Urbain / Ren\u00e9-L\u00e9vesque",
+        "latitude": 45.5079,
+        "longitude": -73.563112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57477158,
+          45.5081439
+        ]
+      },
+      "properties": {
+        "code": 6204,
+        "name": "Milton / Durocher",
+        "latitude": 45.5081439,
+        "longitude": -73.57477158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580498,
+          45.508356
+        ]
+      },
+      "properties": {
+        "code": 6075,
+        "name": "University / des Pins",
+        "latitude": 45.508356,
+        "longitude": -73.580498
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577697873116,
+          45.508566869474
+        ]
+      },
+      "properties": {
+        "code": 7033,
+        "name": "Aylmer / Prince-Arthur",
+        "latitude": 45.508566869474,
+        "longitude": -73.577697873116
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.554579913616,
+          45.509188106593
+        ]
+      },
+      "properties": {
+        "code": 6004,
+        "name": "H\u00f4tel-de-Ville (du Champs-de-Mars / Gosford)",
+        "latitude": 45.509188106593,
+        "longitude": -73.554579913616
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.554346561432,
+          45.509328142454
+        ]
+      },
+      "properties": {
+        "code": 6001,
+        "name": "H\u00f4tel-de-Ville 2 (du Champs-de-Mars / Gosford)",
+        "latitude": 45.509328142454,
+        "longitude": -73.554346561432
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56231675,
+          45.5096853
+        ]
+      },
+      "properties": {
+        "code": 6180,
+        "name": "Place de la paix (Pl. du march\u00e9 / St-Dominique)",
+        "latitude": 45.5096853,
+        "longitude": -73.56231675
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57354,
+          45.50971
+        ]
+      },
+      "properties": {
+        "code": 6205,
+        "name": "Milton / du Parc",
+        "latitude": 45.50971,
+        "longitude": -73.57354
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576105,
+          45.509864
+        ]
+      },
+      "properties": {
+        "code": 6079,
+        "name": "Hutchison/ Prince-Arthur",
+        "latitude": 45.509864,
+        "longitude": -73.576105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.624835,
+          45.510042
+        ]
+      },
+      "properties": {
+        "code": 6366,
+        "name": "Wilderton  / Van Horne",
+        "latitude": 45.510042,
+        "longitude": -73.624835
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.570752292871,
+          45.510071548477
+        ]
+      },
+      "properties": {
+        "code": 6202,
+        "name": "Ste-Famille / Sherbrooke",
+        "latitude": 45.510071548477,
+        "longitude": -73.570752292871
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.611429,
+          45.510086
+        ]
+      },
+      "properties": {
+        "code": 6306,
+        "name": "du Mont-Royal / Vincent-d'Indy",
+        "latitude": 45.510086,
+        "longitude": -73.611429
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57547,
+          45.51059
+        ]
+      },
+      "properties": {
+        "code": 6206,
+        "name": "Prince-Arthur / du Parc",
+        "latitude": 45.51059,
+        "longitude": -73.57547
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56497,
+          45.51066
+        ]
+      },
+      "properties": {
+        "code": 6012,
+        "name": "M\u00e9tro St-Laurent (de Maisonneuve / St-Laurent)",
+        "latitude": 45.51066,
+        "longitude": -73.56497
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57805,
+          45.51069
+        ]
+      },
+      "properties": {
+        "code": 6208,
+        "name": "Hutchison / des Pins",
+        "latitude": 45.51069,
+        "longitude": -73.57805
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.54983,
+          45.51086
+        ]
+      },
+      "properties": {
+        "code": 6023,
+        "name": "de la Commune / Berri",
+        "latitude": 45.51086,
+        "longitude": -73.54983
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.567907139659,
+          45.511132280739
+        ]
+      },
+      "properties": {
+        "code": 6003,
+        "name": "Clark / Evans",
+        "latitude": 45.511132280739,
+        "longitude": -73.567907139659
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574634790421,
+          45.511638213975
+        ]
+      },
+      "properties": {
+        "code": 7037,
+        "name": "Prince-Arthur / Ste-Famille",
+        "latitude": 45.511638213975,
+        "longitude": -73.574634790421
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562183976173,
+          45.511640093571
+        ]
+      },
+      "properties": {
+        "code": 6007,
+        "name": "de l'H\u00f4tel-de-Ville / Ste-Catherine",
+        "latitude": 45.511640093571,
+        "longitude": -73.562183976173
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56182590127,
+          45.512283212682
+        ]
+      },
+      "properties": {
+        "code": 7001,
+        "name": "Ste-Catherine / Ste-\u00c9lisabeth",
+        "latitude": 45.512283212682,
+        "longitude": -73.56182590127
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.570677191019,
+          45.512541352852
+        ]
+      },
+      "properties": {
+        "code": 6209,
+        "name": "Milton / Clark",
+        "latitude": 45.512541352852,
+        "longitude": -73.570677191019
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573740273714,
+          45.512600559161
+        ]
+      },
+      "properties": {
+        "code": 6218,
+        "name": "Prince-Arthur / St-Urbain",
+        "latitude": 45.512600559161,
+        "longitude": -73.573740273714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5611406,
+          45.512734
+        ]
+      },
+      "properties": {
+        "code": 6008,
+        "name": "Sanguinet / Ste-Catherine",
+        "latitude": 45.512734,
+        "longitude": -73.5611406
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577016592026,
+          45.512812949535
+        ]
+      },
+      "properties": {
+        "code": 6207,
+        "name": "Ste-Famille / des Pins",
+        "latitude": 45.512812949535,
+        "longitude": -73.577016592026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572961091995,
+          45.513302572077
+        ]
+      },
+      "properties": {
+        "code": 6411,
+        "name": "Clark / Prince-Arthur",
+        "latitude": 45.513302572077,
+        "longitude": -73.572961091995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.533554077148,
+          45.513409000981
+        ]
+      },
+      "properties": {
+        "code": 6501,
+        "name": "M\u00e9tro Jean-Drapeau",
+        "latitude": 45.513409000981,
+        "longitude": -73.533554077148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562870621681,
+          45.513542213035
+        ]
+      },
+      "properties": {
+        "code": 6013,
+        "name": "Sanguinet / de Maisonneuve",
+        "latitude": 45.513542213035,
+        "longitude": -73.562870621681
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.538382053375,
+          45.513741443172
+        ]
+      },
+      "properties": {
+        "code": 6109,
+        "name": "Quai de la navette fluviale",
+        "latitude": 45.513741443172,
+        "longitude": -73.538382053375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.632463216782,
+          45.513780237756
+        ]
+      },
+      "properties": {
+        "code": 7007,
+        "name": "Gare Canora",
+        "latitude": 45.513780237756,
+        "longitude": -73.632463216782
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560445904732,
+          45.513833539884
+        ]
+      },
+      "properties": {
+        "code": 6901,
+        "name": "Ste-Catherine / St-Denis",
+        "latitude": 45.513833539884,
+        "longitude": -73.560445904732
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.552644699812,
+          45.5141145279
+        ]
+      },
+      "properties": {
+        "code": 6011,
+        "name": "St-Andr\u00e9 / St-Antoine",
+        "latitude": 45.5141145279,
+        "longitude": -73.552644699812
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610871,
+          45.514379
+        ]
+      },
+      "properties": {
+        "code": 6305,
+        "name": "Davaar / de la C\u00f4te-Ste-Catherine",
+        "latitude": 45.514379,
+        "longitude": -73.610871
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561765551567,
+          45.514395514513
+        ]
+      },
+      "properties": {
+        "code": 6014,
+        "name": "St-Denis / de Maisonneuve",
+        "latitude": 45.514395514513,
+        "longitude": -73.561765551567
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575082048774,
+          45.514403032531
+        ]
+      },
+      "properties": {
+        "code": 7038,
+        "name": "Clark / Guilbault",
+        "latitude": 45.514403032531,
+        "longitude": -73.575082048774
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568406701088,
+          45.514564669658
+        ]
+      },
+      "properties": {
+        "code": 6021,
+        "name": "de l'H\u00f4tel-de-Ville / Sherbrooke",
+        "latitude": 45.514564669658,
+        "longitude": -73.568406701088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565338,
+          45.514784
+        ]
+      },
+      "properties": {
+        "code": 6020,
+        "name": "Sanguinet / Ontario",
+        "latitude": 45.514784,
+        "longitude": -73.565338
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.578275889158,
+          45.514887002775
+        ]
+      },
+      "properties": {
+        "code": 6215,
+        "name": "St-Cuthbert / St-Urbain",
+        "latitude": 45.514887002775,
+        "longitude": -73.578275889158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.619682,
+          45.514905
+        ]
+      },
+      "properties": {
+        "code": 6303,
+        "name": "Dunlop / Van Horne",
+        "latitude": 45.514905,
+        "longitude": -73.619682
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58503,
+          45.51496
+        ]
+      },
+      "properties": {
+        "code": 6216,
+        "name": "Parc Jeanne Mance (monument \u00e0 sir George-\u00c9tienne Cartier)",
+        "latitude": 45.51496,
+        "longitude": -73.58503
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559221476316,
+          45.515051758517
+        ]
+      },
+      "properties": {
+        "code": 6009,
+        "name": "Ste-Catherine / Labelle",
+        "latitude": 45.515051758517,
+        "longitude": -73.559221476316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.581094890833,
+          45.515174563706
+        ]
+      },
+      "properties": {
+        "code": 6212,
+        "name": "Duluth / de l'Esplanade",
+        "latitude": 45.515174563706,
+        "longitude": -73.581094890833
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561273,
+          45.515299
+        ]
+      },
+      "properties": {
+        "code": 6015,
+        "name": "Berri / de Maisonneuve",
+        "latitude": 45.515299,
+        "longitude": -73.561273
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575808256865,
+          45.515616239398
+        ]
+      },
+      "properties": {
+        "code": 6211,
+        "name": "Roy / St-Laurent",
+        "latitude": 45.515616239398,
+        "longitude": -73.575808256865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614991,
+          45.515617
+        ]
+      },
+      "properties": {
+        "code": 6304,
+        "name": "Rockland / Lajoie",
+        "latitude": 45.515617,
+        "longitude": -73.614991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60671132803,
+          45.5156340943
+        ]
+      },
+      "properties": {
+        "code": 6302,
+        "name": "Stuart / de la C\u00f4te-Ste-Catherine",
+        "latitude": 45.5156340943,
+        "longitude": -73.60671132803
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.558112382889,
+          45.516426545782
+        ]
+      },
+      "properties": {
+        "code": 6729,
+        "name": "St-Andr\u00e9 / Ste-Catherine",
+        "latitude": 45.516426545782,
+        "longitude": -73.558112382889
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577703237534,
+          45.516740147441
+        ]
+      },
+      "properties": {
+        "code": 6903,
+        "name": "Napol\u00e9on /  St-Dominique",
+        "latitude": 45.516740147441,
+        "longitude": -73.577703237534
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5541883111,
+          45.516817504631
+        ]
+      },
+      "properties": {
+        "code": 6104,
+        "name": "Wolfe / Ren\u00e9-L\u00e9vesque",
+        "latitude": 45.516817504631,
+        "longitude": -73.5541883111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579460084438,
+          45.51687640567
+        ]
+      },
+      "properties": {
+        "code": 6213,
+        "name": "Duluth / St-Laurent",
+        "latitude": 45.51687640567,
+        "longitude": -73.579460084438
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.589,
+          45.517
+        ]
+      },
+      "properties": {
+        "code": 6223,
+        "name": "du Mont-Royal / du Parc",
+        "latitude": 45.517,
+        "longitude": -73.589
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574436306953,
+          45.517333103258
+        ]
+      },
+      "properties": {
+        "code": 6219,
+        "name": "de l'H\u00f4tel-de-Ville / Roy",
+        "latitude": 45.517333103258,
+        "longitude": -73.574436306953
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56906,
+          45.51735
+        ]
+      },
+      "properties": {
+        "code": 6214,
+        "name": "Square St-Louis",
+        "latitude": 45.51735,
+        "longitude": -73.56906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58212888,
+          45.5173538
+        ]
+      },
+      "properties": {
+        "code": 6181,
+        "name": "Clark / Rachel",
+        "latitude": 45.5173538,
+        "longitude": -73.58212888
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5889283,
+          45.5176432
+        ]
+      },
+      "properties": {
+        "code": 6222,
+        "name": "Jeanne Mance / du Mont-Royal",
+        "latitude": 45.5176432,
+        "longitude": -73.5889283
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.567167520523,
+          45.51792135436
+        ]
+      },
+      "properties": {
+        "code": 6019,
+        "name": "Berri / Sherbrooke",
+        "latitude": 45.51792135436,
+        "longitude": -73.567167520523
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561851382256,
+          45.518128086513
+        ]
+      },
+      "properties": {
+        "code": 7074,
+        "name": "St-Andr\u00e9 / Robin",
+        "latitude": 45.518128086513,
+        "longitude": -73.561851382256
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.595774620771,
+          45.518263401693
+        ]
+      },
+      "properties": {
+        "code": 7036,
+        "name": "Hutchison / Edouard Charles",
+        "latitude": 45.518263401693,
+        "longitude": -73.595774620771
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59235,
+          45.51829
+        ]
+      },
+      "properties": {
+        "code": 6224,
+        "name": "Villeneuve / du Parc",
+        "latitude": 45.51829,
+        "longitude": -73.59235
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.603286147118,
+          45.518309446368
+        ]
+      },
+      "properties": {
+        "code": 6301,
+        "name": "Parc Outremont (Bloomfield / Elmwood)",
+        "latitude": 45.518309446368,
+        "longitude": -73.603286147118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.616646882438,
+          45.518341304405
+        ]
+      },
+      "properties": {
+        "code": 7021,
+        "name": "McEachran / Van Horne",
+        "latitude": 45.518341304405,
+        "longitude": -73.616646882438
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.581566,
+          45.518593
+        ]
+      },
+      "properties": {
+        "code": 6248,
+        "name": "St-Dominique / Rachel",
+        "latitude": 45.518593,
+        "longitude": -73.581566
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56353,
+          45.51889
+        ]
+      },
+      "properties": {
+        "code": 6018,
+        "name": "St-Andr\u00e9 / Ontario",
+        "latitude": 45.51889,
+        "longitude": -73.56353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58363156316,
+          45.518977033595
+        ]
+      },
+      "properties": {
+        "code": 6217,
+        "name": "Valli\u00e8res / St-Laurent",
+        "latitude": 45.518977033595,
+        "longitude": -73.58363156316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5727,
+          45.51908
+        ]
+      },
+      "properties": {
+        "code": 6174,
+        "name": "Roy / St-Denis",
+        "latitude": 45.51908,
+        "longitude": -73.5727
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569509088993,
+          45.519088441376
+        ]
+      },
+      "properties": {
+        "code": 6173,
+        "name": "Berri / Cherrier",
+        "latitude": 45.519088441376,
+        "longitude": -73.569509088993
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55786,
+          45.519157
+        ]
+      },
+      "properties": {
+        "code": 6112,
+        "name": "Montcalm / de Maisonneuve",
+        "latitude": 45.519157,
+        "longitude": -73.55786
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577180206776,
+          45.519216236874
+        ]
+      },
+      "properties": {
+        "code": 6220,
+        "name": "Laval / Duluth",
+        "latitude": 45.519216236874,
+        "longitude": -73.577180206776
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.551958054304,
+          45.51937252292
+        ]
+      },
+      "properties": {
+        "code": 6105,
+        "name": "Plessis / Ren\u00e9-L\u00e9vesque",
+        "latitude": 45.51937252292,
+        "longitude": -73.551958054304
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58685,
+          45.51941
+        ]
+      },
+      "properties": {
+        "code": 6221,
+        "name": "du Mont-Royal / Clark",
+        "latitude": 45.51941,
+        "longitude": -73.58685
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59852924943,
+          45.519505185183
+        ]
+      },
+      "properties": {
+        "code": 6241,
+        "name": "Hutchison / Fairmount",
+        "latitude": 45.519505185183,
+        "longitude": -73.59852924943
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560115993023,
+          45.519580828316
+        ]
+      },
+      "properties": {
+        "code": 6171,
+        "name": "Wolfe / Robin",
+        "latitude": 45.519580828316,
+        "longitude": -73.560115993023
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579423874617,
+          45.520178452476
+        ]
+      },
+      "properties": {
+        "code": 6307,
+        "name": "Laval / Rachel",
+        "latitude": 45.520178452476,
+        "longitude": -73.579423874617
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.590559,
+          45.520188
+        ]
+      },
+      "properties": {
+        "code": 6225,
+        "name": "Villeneuve / St-Urbain",
+        "latitude": 45.520188,
+        "longitude": -73.590559
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614849150181,
+          45.520270538654
+        ]
+      },
+      "properties": {
+        "code": 6246,
+        "name": "M\u00e9tro Outremont (Wiseman / Van Horne)",
+        "latitude": 45.520270538654,
+        "longitude": -73.614849150181
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.567750900984,
+          45.520541158384
+        ]
+      },
+      "properties": {
+        "code": 6175,
+        "name": "St-Andr\u00e9 / Cherrier",
+        "latitude": 45.520541158384,
+        "longitude": -73.567750900984
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575983941555,
+          45.520604232327
+        ]
+      },
+      "properties": {
+        "code": 6179,
+        "name": "Duluth / St-Denis",
+        "latitude": 45.520604232327,
+        "longitude": -73.575983941555
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6084279,
+          45.52068774
+        ]
+      },
+      "properties": {
+        "code": 6243,
+        "name": "Bloomfield / Bernard",
+        "latitude": 45.52068774,
+        "longitude": -73.6084279
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559221476316,
+          45.520889767299
+        ]
+      },
+      "properties": {
+        "code": 6117,
+        "name": "Robin / de la Visitation",
+        "latitude": 45.520889767299,
+        "longitude": -73.559221476316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5637571,
+          45.52106924
+        ]
+      },
+      "properties": {
+        "code": 6017,
+        "name": "du Square Ahmerst / Wolfe",
+        "latitude": 45.52106924,
+        "longitude": -73.5637571
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59478354454,
+          45.52111622099
+        ]
+      },
+      "properties": {
+        "code": 6227,
+        "name": "de l'Esplanade / Laurier",
+        "latitude": 45.52111622099,
+        "longitude": -73.59478354454
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.54926,
+          45.52114
+        ]
+      },
+      "properties": {
+        "code": 6106,
+        "name": "Papineau / Ren\u00e9-L\u00e9vesque",
+        "latitude": 45.52114,
+        "longitude": -73.54926
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585615754128,
+          45.52116132369
+        ]
+      },
+      "properties": {
+        "code": 6229,
+        "name": "Coloniale / du Mont-Royal",
+        "latitude": 45.52116132369,
+        "longitude": -73.585615754128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.589419126511,
+          45.521341734132
+        ]
+      },
+      "properties": {
+        "code": 6196,
+        "name": "Villeneuve / St-Laurent",
+        "latitude": 45.521341734132,
+        "longitude": -73.589419126511
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584980070591,
+          45.521484558655
+        ]
+      },
+      "properties": {
+        "code": 6182,
+        "name": "de Bullion / du Mont-Royal",
+        "latitude": 45.521484558655,
+        "longitude": -73.584980070591
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.570472002029,
+          45.521492075725
+        ]
+      },
+      "properties": {
+        "code": 6044,
+        "name": "Roy / St-Christophe",
+        "latitude": 45.521492075725,
+        "longitude": -73.570472002029
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.596758,
+          45.521495
+        ]
+      },
+      "properties": {
+        "code": 6193,
+        "name": "de l'Esplanade / Fairmount",
+        "latitude": 45.521495,
+        "longitude": -73.596758
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.535332381725,
+          45.521565367106
+        ]
+      },
+      "properties": {
+        "code": 6504,
+        "name": "La Ronde",
+        "latitude": 45.521565367106,
+        "longitude": -73.535332381725
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562347590923,
+          45.521629790621
+        ]
+      },
+      "properties": {
+        "code": 6902,
+        "name": "Beaudry / Ontario",
+        "latitude": 45.521629790621,
+        "longitude": -73.562347590923
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55534,
+          45.5219
+        ]
+      },
+      "properties": {
+        "code": 6113,
+        "name": "Alexandre-DeS\u00e8ve / de Maisonneuve",
+        "latitude": 45.5219,
+        "longitude": -73.55534
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.596200421453,
+          45.522109562052
+        ]
+      },
+      "properties": {
+        "code": 6230,
+        "name": "Waverly / Fairmount",
+        "latitude": 45.522109562052,
+        "longitude": -73.596200421453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5775906,
+          45.5222776
+        ]
+      },
+      "properties": {
+        "code": 6178,
+        "name": "Rivard / Rachel",
+        "latitude": 45.5222776,
+        "longitude": -73.5775906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.606931269169,
+          45.522317596602
+        ]
+      },
+      "properties": {
+        "code": 7022,
+        "name": "Durocher / Bernard",
+        "latitude": 45.522317596602,
+        "longitude": -73.606931269169
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593588583753,
+          45.52258373689
+        ]
+      },
+      "properties": {
+        "code": 7034,
+        "name": "Clark / Laurier",
+        "latitude": 45.52258373689,
+        "longitude": -73.593588583753
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61265779,
+          45.5225858
+        ]
+      },
+      "properties": {
+        "code": 6245,
+        "name": "Bloomfield / Van Horne",
+        "latitude": 45.5225858,
+        "longitude": -73.61265779
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.601295948029,
+          45.522820936993
+        ]
+      },
+      "properties": {
+        "code": 6231,
+        "name": "Jeanne-Mance / St-Viateur",
+        "latitude": 45.522820936993,
+        "longitude": -73.601295948029
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.583612251387,
+          45.522847236475
+        ]
+      },
+      "properties": {
+        "code": 6183,
+        "name": "Henri-Julien / du Mont-Royal",
+        "latitude": 45.522847236475,
+        "longitude": -73.583612251387
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577495366335,
+          45.522878018363
+        ]
+      },
+      "properties": {
+        "code": 7031,
+        "name": "Berri / Rachel",
+        "latitude": 45.522878018363,
+        "longitude": -73.577495366335
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568363785744,
+          45.522907381186
+        ]
+      },
+      "properties": {
+        "code": 6146,
+        "name": "du Parc-La Fontaine / Roy",
+        "latitude": 45.522907381186,
+        "longitude": -73.568363785744
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565405979753,
+          45.523034595436
+        ]
+      },
+      "properties": {
+        "code": 7072,
+        "name": "Beaudry / Sherbrooke",
+        "latitude": 45.523034595436,
+        "longitude": -73.565405979753
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573431,
+          45.523171
+        ]
+      },
+      "properties": {
+        "code": 6176,
+        "name": "St-Andr\u00e9 / Duluth",
+        "latitude": 45.523171,
+        "longitude": -73.573431
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55584256351,
+          45.523194328558
+        ]
+      },
+      "properties": {
+        "code": 7073,
+        "name": "Logan / de Champlain",
+        "latitude": 45.523194328558,
+        "longitude": -73.55584256351
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.558218330145,
+          45.523276411828
+        ]
+      },
+      "properties": {
+        "code": 6123,
+        "name": "Alexandre-de-S\u00e8ve / la Fontaine",
+        "latitude": 45.523276411828,
+        "longitude": -73.558218330145
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576456010342,
+          45.523401379008
+        ]
+      },
+      "properties": {
+        "code": 6177,
+        "name": "St-Hubert / Rachel",
+        "latitude": 45.523401379008,
+        "longitude": -73.576456010342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55199,
+          45.52353
+        ]
+      },
+      "properties": {
+        "code": 6114,
+        "name": "M\u00e9tro Papineau (Cartier / Ste-Catherine)",
+        "latitude": 45.52353,
+        "longitude": -73.55199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.587332367897,
+          45.523544198302
+        ]
+      },
+      "properties": {
+        "code": 6201,
+        "name": "Villeneuve / de l'H\u00f4tel-de-Ville",
+        "latitude": 45.523544198302,
+        "longitude": -73.587332367897
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.623442947865,
+          45.523574794
+        ]
+      },
+      "properties": {
+        "code": 6746,
+        "name": "M\u00e9tro Acadie (de l'Acadie / Beaumont)",
+        "latitude": 45.523574794,
+        "longitude": -73.623442947865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560941,
+          45.523584
+        ]
+      },
+      "properties": {
+        "code": 6116,
+        "name": "Plessis / Ontario",
+        "latitude": 45.523584,
+        "longitude": -73.560941
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.519677,
+          45.523854
+        ]
+      },
+      "properties": {
+        "code": 5007,
+        "name": "M\u00e9tro Longueuil - Universit\u00e9 de Sherbrooke",
+        "latitude": 45.523854,
+        "longitude": -73.519677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.590143322945,
+          45.524036546248
+        ]
+      },
+      "properties": {
+        "code": 6195,
+        "name": "de Bullion / St-Joseph",
+        "latitude": 45.524036546248,
+        "longitude": -73.590143322945
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.604973256588,
+          45.524286476953
+        ]
+      },
+      "properties": {
+        "code": 6233,
+        "name": "Bernard / Jeanne-Mance",
+        "latitude": 45.524286476953,
+        "longitude": -73.604973256588
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.594142496586,
+          45.524504989238
+        ]
+      },
+      "properties": {
+        "code": 6280,
+        "name": "Fairmount / St-Dominique",
+        "latitude": 45.524504989238,
+        "longitude": -73.594142496586
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572078645229,
+          45.524565651057
+        ]
+      },
+      "properties": {
+        "code": 6145,
+        "name": "du Parc-La Fontaine / Duluth",
+        "latitude": 45.524565651057,
+        "longitude": -73.572078645229
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.578755,
+          45.524634
+        ]
+      },
+      "properties": {
+        "code": 6926,
+        "name": "Marie-Anne / St-Hubert",
+        "latitude": 45.524634,
+        "longitude": -73.578755
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58255,
+          45.524673
+        ]
+      },
+      "properties": {
+        "code": 6184,
+        "name": "M\u00e9tro Mont-Royal (Rivard / du Mont-Royal)",
+        "latitude": 45.524673,
+        "longitude": -73.58255
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56545,
+          45.52479
+        ]
+      },
+      "properties": {
+        "code": 6147,
+        "name": "Calixa-Lavall\u00e9e / Sherbrooke",
+        "latitude": 45.52479,
+        "longitude": -73.56545
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610737323761,
+          45.525021229213
+        ]
+      },
+      "properties": {
+        "code": 6232,
+        "name": "Hutchison / Van Horne",
+        "latitude": 45.525021229213,
+        "longitude": -73.610737323761
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560035526752,
+          45.5250475373
+        ]
+      },
+      "properties": {
+        "code": 6118,
+        "name": "de Champlain / Ontario",
+        "latitude": 45.5250475373,
+        "longitude": -73.560035526752
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59930574894,
+          45.525164044395
+        ]
+      },
+      "properties": {
+        "code": 6199,
+        "name": "Clark / St-Viateur",
+        "latitude": 45.525164044395,
+        "longitude": -73.59930574894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.595446050167,
+          45.525177499134
+        ]
+      },
+      "properties": {
+        "code": 6200,
+        "name": "St-Dominique / Maguire",
+        "latitude": 45.525177499134,
+        "longitude": -73.595446050167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.581774830818,
+          45.525628191233
+        ]
+      },
+      "properties": {
+        "code": 6187,
+        "name": "Resther / du Mont-Royal",
+        "latitude": 45.525628191233,
+        "longitude": -73.581774830818
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593016,
+          45.525669
+        ]
+      },
+      "properties": {
+        "code": 6094,
+        "name": "de Gasp\u00e9 / Fairmount",
+        "latitude": 45.525669,
+        "longitude": -73.593016
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577858805656,
+          45.526026565221
+        ]
+      },
+      "properties": {
+        "code": 6188,
+        "name": "Mentana / Marie-Anne",
+        "latitude": 45.526026565221,
+        "longitude": -73.577858805656
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.546002209187,
+          45.52612803739
+        ]
+      },
+      "properties": {
+        "code": 7077,
+        "name": "Fullum / Jean Langlois",
+        "latitude": 45.52612803739,
+        "longitude": -73.546002209187
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.549266457558,
+          45.526200383177
+        ]
+      },
+      "properties": {
+        "code": 6111,
+        "name": "Parthenais / Ste-Catherine",
+        "latitude": 45.526200383177,
+        "longitude": -73.549266457558
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61374676,
+          45.5262464
+        ]
+      },
+      "properties": {
+        "code": 6752,
+        "name": "Hutchison / Beaubien",
+        "latitude": 45.5262464,
+        "longitude": -73.61374676
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58975838928,
+          45.526251876093
+        ]
+      },
+      "properties": {
+        "code": 7032,
+        "name": "Drolet / Laurier",
+        "latitude": 45.526251876093,
+        "longitude": -73.58975838928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.598232865334,
+          45.52654331973
+        ]
+      },
+      "properties": {
+        "code": 6235,
+        "name": "St-Dominique / St-Viateur",
+        "latitude": 45.52654331973,
+        "longitude": -73.598232865334
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585427999496,
+          45.52656586891
+        ]
+      },
+      "properties": {
+        "code": 7024,
+        "name": "Berri / Gilford",
+        "latitude": 45.52656586891,
+        "longitude": -73.585427999496
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.624212741852,
+          45.526798054467
+        ]
+      },
+      "properties": {
+        "code": 6728,
+        "name": "Champagneur / Jean-Talon",
+        "latitude": 45.526798054467,
+        "longitude": -73.624212741852
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.626668304205,
+          45.526845384031
+        ]
+      },
+      "properties": {
+        "code": 6334,
+        "name": "d'Outremont / Ogilvy",
+        "latitude": 45.526845384031,
+        "longitude": -73.626668304205
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57264,
+          45.52689
+        ]
+      },
+      "properties": {
+        "code": 6143,
+        "name": "Rachel / de Br\u00e9beuf",
+        "latitude": 45.52689,
+        "longitude": -73.57264
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.558021,
+          45.52697
+        ]
+      },
+      "properties": {
+        "code": 6119,
+        "name": "Dorion / Ontario",
+        "latitude": 45.52697,
+        "longitude": -73.558021
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60261,
+          45.52697
+        ]
+      },
+      "properties": {
+        "code": 6234,
+        "name": "Bernard / Clark",
+        "latitude": 45.52697,
+        "longitude": -73.60261
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585765957832,
+          45.527009334271
+        ]
+      },
+      "properties": {
+        "code": 6190,
+        "name": "Pontiac / Gilford",
+        "latitude": 45.527009334271,
+        "longitude": -73.585765957832
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593470566557,
+          45.527041096088
+        ]
+      },
+      "properties": {
+        "code": 7026,
+        "name": "Maguire / Henri-Julien",
+        "latitude": 45.527041096088,
+        "longitude": -73.593470566557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56463,
+          45.52729
+        ]
+      },
+      "properties": {
+        "code": 6148,
+        "name": "\u00c9mile-Duploy\u00e9 / Sherbrooke",
+        "latitude": 45.52729,
+        "longitude": -73.56463
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.607723,
+          45.527363
+        ]
+      },
+      "properties": {
+        "code": 6228,
+        "name": "Waverly / Van Horne",
+        "latitude": 45.527363,
+        "longitude": -73.607723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579916730523,
+          45.527432126381
+        ]
+      },
+      "properties": {
+        "code": 6169,
+        "name": "Boyer / du Mont-Royal",
+        "latitude": 45.527432126381,
+        "longitude": -73.579916730523
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5891147,
+          45.52761627
+        ]
+      },
+      "properties": {
+        "code": 6136,
+        "name": "M\u00e9tro Laurier (Rivard / Laurier)",
+        "latitude": 45.52761627,
+        "longitude": -73.5891147
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58628362,
+          45.5277271
+        ]
+      },
+      "properties": {
+        "code": 6281,
+        "name": "Resther / St-Joseph",
+        "latitude": 45.5277271,
+        "longitude": -73.58628362
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.597438931465,
+          45.527748278848
+        ]
+      },
+      "properties": {
+        "code": 7028,
+        "name": "de Gasp\u00e9 / St-Viateur",
+        "latitude": 45.527748278848,
+        "longitude": -73.597438931465
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576185107231,
+          45.527758143904
+        ]
+      },
+      "properties": {
+        "code": 6156,
+        "name": "Marie-Anne / de la Roche",
+        "latitude": 45.527758143904,
+        "longitude": -73.576185107231
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571939170361,
+          45.527794785525
+        ]
+      },
+      "properties": {
+        "code": 6142,
+        "name": "Calixa-Lavall\u00e9e / Rachel",
+        "latitude": 45.527794785525,
+        "longitude": -73.571939170361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.594821095467,
+          45.527839413108
+        ]
+      },
+      "properties": {
+        "code": 6089,
+        "name": "Henri-Julien / Carmel",
+        "latitude": 45.527839413108,
+        "longitude": -73.594821095467
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.601222513389,
+          45.527933320152
+        ]
+      },
+      "properties": {
+        "code": 7025,
+        "name": "St-Dominique / Bernard",
+        "latitude": 45.527933320152,
+        "longitude": -73.601222513389
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55108499527,
+          45.528448693514
+        ]
+      },
+      "properties": {
+        "code": 6108,
+        "name": "Logan / Fullum",
+        "latitude": 45.528448693514,
+        "longitude": -73.55108499527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.578679561615,
+          45.528757793926
+        ]
+      },
+      "properties": {
+        "code": 6157,
+        "name": "de la Roche / du Mont-Royal",
+        "latitude": 45.528757793926,
+        "longitude": -73.578679561615
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.546348214149,
+          45.529033070371
+        ]
+      },
+      "properties": {
+        "code": 6110,
+        "name": "Poupart / Ste-Catherine",
+        "latitude": 45.529033070371,
+        "longitude": -73.546348214149
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559233546257,
+          45.529134537116
+        ]
+      },
+      "properties": {
+        "code": 6132,
+        "name": "Larivi\u00e8re / de Lorimier",
+        "latitude": 45.529134537116,
+        "longitude": -73.559233546257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574777,
+          45.529219
+        ]
+      },
+      "properties": {
+        "code": 6314,
+        "name": "de Lanaudi\u00e8re / Marie-Anne",
+        "latitude": 45.529219,
+        "longitude": -73.574777
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610679656267,
+          45.529510338283
+        ]
+      },
+      "properties": {
+        "code": 7040,
+        "name": "St-Urbain / Beaubien",
+        "latitude": 45.529510338283,
+        "longitude": -73.610679656267
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.517691493034,
+          45.529512217283
+        ]
+      },
+      "properties": {
+        "code": 5003,
+        "name": "Place Longueuil",
+        "latitude": 45.529512217283,
+        "longitude": -73.517691493034
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.587601893232,
+          45.529559009672
+        ]
+      },
+      "properties": {
+        "code": 6186,
+        "name": "St-Andr\u00e9 / Laurier",
+        "latitude": 45.529559009672,
+        "longitude": -73.587601893232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.601728,
+          45.529686
+        ]
+      },
+      "properties": {
+        "code": 6051,
+        "name": "de Gasp\u00e9 / Marmier",
+        "latitude": 45.529686,
+        "longitude": -73.601728
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.567400872707,
+          45.529692600945
+        ]
+      },
+      "properties": {
+        "code": 6137,
+        "name": "Gauthier / Papineau",
+        "latitude": 45.529692600945,
+        "longitude": -73.567400872707
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59527,
+          45.52974
+        ]
+      },
+      "properties": {
+        "code": 6198,
+        "name": "H\u00e9l\u00e8ne-Baillargeon / St-Denis",
+        "latitude": 45.52974,
+        "longitude": -73.59527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.570289611816,
+          45.529801582461
+        ]
+      },
+      "properties": {
+        "code": 6140,
+        "name": "Marquette / Rachel",
+        "latitude": 45.529801582461,
+        "longitude": -73.570289611816
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.591766,
+          45.529802
+        ]
+      },
+      "properties": {
+        "code": 6192,
+        "name": "Berri / St-Gr\u00e9goire",
+        "latitude": 45.529802,
+        "longitude": -73.591766
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.563053011894,
+          45.529970691291
+        ]
+      },
+      "properties": {
+        "code": 6129,
+        "name": "de Bordeaux / Sherbrooke",
+        "latitude": 45.529970691291,
+        "longitude": -73.563053011894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.604214,
+          45.529993
+        ]
+      },
+      "properties": {
+        "code": 6271,
+        "name": "Casgrain / de Bellechasse",
+        "latitude": 45.529993,
+        "longitude": -73.604214
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58677,
+          45.530046
+        ]
+      },
+      "properties": {
+        "code": 6170,
+        "name": "de Mentana / Laurier",
+        "latitude": 45.530046,
+        "longitude": -73.58677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.624392449856,
+          45.530351301736
+        ]
+      },
+      "properties": {
+        "code": 6503,
+        "name": "M\u00e9tro Parc  (Ogilvy / Hutchison)",
+        "latitude": 45.530351301736,
+        "longitude": -73.624392449856
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614708334208,
+          45.53050525975
+        ]
+      },
+      "properties": {
+        "code": 6747,
+        "name": "Waverly / St-Zotique",
+        "latitude": 45.53050525975,
+        "longitude": -73.614708334208
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.54913,
+          45.53057
+        ]
+      },
+      "properties": {
+        "code": 6122,
+        "name": "Logan / d'Iberville",
+        "latitude": 45.53057,
+        "longitude": -73.54913
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.581625968218,
+          45.530816227816
+        ]
+      },
+      "properties": {
+        "code": 6158,
+        "name": "Gilford / de Br\u00e9beuf",
+        "latitude": 45.530816227816,
+        "longitude": -73.581625968218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.598345518112,
+          45.530871318676
+        ]
+      },
+      "properties": {
+        "code": 6168,
+        "name": "Marmier / St-Denis",
+        "latitude": 45.530871318676,
+        "longitude": -73.598345518112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57674,
+          45.53092
+        ]
+      },
+      "properties": {
+        "code": 6155,
+        "name": "Garnier / du Mont-Royal",
+        "latitude": 45.53092,
+        "longitude": -73.57674
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.583695,
+          45.531164
+        ]
+      },
+      "properties": {
+        "code": 6274,
+        "name": "de la Roche / St-Joseph",
+        "latitude": 45.531164,
+        "longitude": -73.583695
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.632146716118,
+          45.531203291406
+        ]
+      },
+      "properties": {
+        "code": 6338,
+        "name": "Ball / Querbes",
+        "latitude": 45.531203291406,
+        "longitude": -73.632146716118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.597888201475,
+          45.531327198753
+        ]
+      },
+      "properties": {
+        "code": 6906,
+        "name": "M\u00e9tro Rosemont (Rosemont / de St-Vallier)",
+        "latitude": 45.531327198753,
+        "longitude": -73.597888201475
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.612674,
+          45.531401
+        ]
+      },
+      "properties": {
+        "code": 6191,
+        "name": "St-Zotique / Clark",
+        "latitude": 45.531401,
+        "longitude": -73.612674
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59174862504,
+          45.531411853693
+        ]
+      },
+      "properties": {
+        "code": 6929,
+        "name": "St-Andr\u00e9 / St-Gr\u00e9goire",
+        "latitude": 45.531411853693,
+        "longitude": -73.59174862504
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565317,
+          45.531818
+        ]
+      },
+      "properties": {
+        "code": 6138,
+        "name": "Gauthier / De Lorimier",
+        "latitude": 45.531818,
+        "longitude": -73.565317
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.617842,
+          45.531938
+        ]
+      },
+      "properties": {
+        "code": 6711,
+        "name": "Alexandra / Waverly",
+        "latitude": 45.531938,
+        "longitude": -73.617842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55343863368,
+          45.531938892781
+        ]
+      },
+      "properties": {
+        "code": 6124,
+        "name": "Poupart / Ontario",
+        "latitude": 45.531938892781,
+        "longitude": -73.55343863368
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580675125122,
+          45.531984926263
+        ]
+      },
+      "properties": {
+        "code": 6237,
+        "name": "de Lanaudi\u00e8re / Gilford",
+        "latitude": 45.531984926263,
+        "longitude": -73.580675125122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55859,
+          45.53217
+        ]
+      },
+      "properties": {
+        "code": 6126,
+        "name": "Rouen / Fullum",
+        "latitude": 45.53217,
+        "longitude": -73.55859
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560618058546,
+          45.532227058312
+        ]
+      },
+      "properties": {
+        "code": 6024,
+        "name": "Messier / Hochelaga",
+        "latitude": 45.532227058312,
+        "longitude": -73.560618058546
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56828,
+          45.53227
+        ]
+      },
+      "properties": {
+        "code": 6141,
+        "name": "de Bordeaux / Rachel",
+        "latitude": 45.53227,
+        "longitude": -73.56828
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610991463065,
+          45.532281456732
+        ]
+      },
+      "properties": {
+        "code": 6247,
+        "name": "St-Dominique / St-Zotique",
+        "latitude": 45.532281456732,
+        "longitude": -73.610991463065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57544,
+          45.53229
+        ]
+      },
+      "properties": {
+        "code": 6154,
+        "name": "Marquette / du Mont-Royal",
+        "latitude": 45.53229,
+        "longitude": -73.57544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.62018674612,
+          45.532330645908
+        ]
+      },
+      "properties": {
+        "code": 7042,
+        "name": "Alexandra / Jean Talon",
+        "latitude": 45.532330645908,
+        "longitude": -73.62018674612
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5647763,
+          45.53240768
+        ]
+      },
+      "properties": {
+        "code": 6139,
+        "name": "des \u00c9rables / Gauthier",
+        "latitude": 45.53240768,
+        "longitude": -73.5647763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60665500164,
+          45.532435864509
+        ]
+      },
+      "properties": {
+        "code": 6915,
+        "name": "Alma / Beaubien",
+        "latitude": 45.532435864509,
+        "longitude": -73.60665500164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58507,
+          45.53248
+        ]
+      },
+      "properties": {
+        "code": 6165,
+        "name": "de Br\u00e9beuf / Laurier",
+        "latitude": 45.53248,
+        "longitude": -73.58507
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571776,
+          45.532674
+        ]
+      },
+      "properties": {
+        "code": 6153,
+        "name": "Cartier / Marie-Anne",
+        "latitude": 45.532674,
+        "longitude": -73.571776
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584150597453,
+          45.532929543796
+        ]
+      },
+      "properties": {
+        "code": 6164,
+        "name": "Chambord / Laurier",
+        "latitude": 45.532929543796,
+        "longitude": -73.584150597453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.581222295761,
+          45.532977455351
+        ]
+      },
+      "properties": {
+        "code": 6160,
+        "name": "Garnier / St-Joseph",
+        "latitude": 45.532977455351,
+        "longitude": -73.581222295761
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61544,
+          45.53318
+        ]
+      },
+      "properties": {
+        "code": 6252,
+        "name": "Mozart / St-Laurent",
+        "latitude": 45.53318,
+        "longitude": -73.61544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.605834,
+          45.533348
+        ]
+      },
+      "properties": {
+        "code": 6913,
+        "name": "Drolet / Beaubien",
+        "latitude": 45.533348,
+        "longitude": -73.605834
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60113568604,
+          45.533348684006
+        ]
+      },
+      "properties": {
+        "code": 6908,
+        "name": "de Bellechasse / de St-Vallier",
+        "latitude": 45.533348684006,
+        "longitude": -73.60113568604
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.570657074451,
+          45.533409127232
+        ]
+      },
+      "properties": {
+        "code": 7030,
+        "name": "de Bordeaux / Marie-Anne",
+        "latitude": 45.533409127232,
+        "longitude": -73.570657074451
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56693148613,
+          45.533495555154
+        ]
+      },
+      "properties": {
+        "code": 6750,
+        "name": "des \u00c9rables / Rachel",
+        "latitude": 45.533495555154,
+        "longitude": -73.56693148613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5521968,
+          45.5336609
+        ]
+      },
+      "properties": {
+        "code": 6120,
+        "name": "Ontario / du Havre",
+        "latitude": 45.5336609,
+        "longitude": -73.5521968
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.515282869339,
+          45.533703286938
+        ]
+      },
+      "properties": {
+        "code": 5002,
+        "name": "St-Charles / Montarville",
+        "latitude": 45.533703286938,
+        "longitude": -73.515282869339
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562425,
+          45.533924
+        ]
+      },
+      "properties": {
+        "code": 6131,
+        "name": "Fullum / Sherbrooke ",
+        "latitude": 45.533924,
+        "longitude": -73.562425
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58852,
+          45.5341
+        ]
+      },
+      "properties": {
+        "code": 6166,
+        "name": "de Br\u00e9beuf / St-Gr\u00e9goire",
+        "latitude": 45.5341,
+        "longitude": -73.58852
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.595478,
+          45.534136
+        ]
+      },
+      "properties": {
+        "code": 6907,
+        "name": "Boyer / Rosemont",
+        "latitude": 45.534136,
+        "longitude": -73.595478
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573588728905,
+          45.534185094903
+        ]
+      },
+      "properties": {
+        "code": 6152,
+        "name": "Chabot / du Mont-Royal",
+        "latitude": 45.534185094903,
+        "longitude": -73.573588728905
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.612231314182,
+          45.534357948228
+        ]
+      },
+      "properties": {
+        "code": 6251,
+        "name": "de Gasp\u00e9 / Dante",
+        "latitude": 45.534357948228,
+        "longitude": -73.612231314182
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559651970863,
+          45.534452946875
+        ]
+      },
+      "properties": {
+        "code": 7078,
+        "name": "Hochelaga / Chapleau",
+        "latitude": 45.534452946875,
+        "longitude": -73.559651970863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.550749719143,
+          45.534557104662
+        ]
+      },
+      "properties": {
+        "code": 6269,
+        "name": "Bercy / Ontario",
+        "latitude": 45.534557104662,
+        "longitude": -73.550749719143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614792823792,
+          45.534727256033
+        ]
+      },
+      "properties": {
+        "code": 7045,
+        "name": "Casgrain / Mozart",
+        "latitude": 45.534727256033,
+        "longitude": -73.614792823792
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.609412312508,
+          45.534882141478
+        ]
+      },
+      "properties": {
+        "code": 6311,
+        "name": "Drolet / St-Zotique",
+        "latitude": 45.534882141478,
+        "longitude": -73.609412312508
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.554864227772,
+          45.535133902808
+        ]
+      },
+      "properties": {
+        "code": 6121,
+        "name": "Gascon / de Rouen",
+        "latitude": 45.535133902808,
+        "longitude": -73.554864227772
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.617459,
+          45.535189
+        ]
+      },
+      "properties": {
+        "code": 6344,
+        "name": "St-Dominique / Jean-Talon",
+        "latitude": 45.535189,
+        "longitude": -73.617459
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.551160097122,
+          45.53529548038
+        ]
+      },
+      "properties": {
+        "code": 6128,
+        "name": "Hogan / Ontario",
+        "latitude": 45.53529548038,
+        "longitude": -73.551160097122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5822,
+          45.53543
+        ]
+      },
+      "properties": {
+        "code": 6163,
+        "name": "Marquette / Laurier",
+        "latitude": 45.53543,
+        "longitude": -73.5822
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.603881597519,
+          45.535505906291
+        ]
+      },
+      "properties": {
+        "code": 6912,
+        "name": "de Chateaubriand / Beaubien",
+        "latitude": 45.535505906291,
+        "longitude": -73.603881597519
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56592297554,
+          45.535690028316
+        ]
+      },
+      "properties": {
+        "code": 6133,
+        "name": "Terrasse Mercure / Fullum",
+        "latitude": 45.535690028316,
+        "longitude": -73.56592297554
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57867,
+          45.53576
+        ]
+      },
+      "properties": {
+        "code": 6161,
+        "name": "Cartier / St-Joseph",
+        "latitude": 45.53576,
+        "longitude": -73.57867
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576287031174,
+          45.536110054431
+        ]
+      },
+      "properties": {
+        "code": 6385,
+        "name": "de Bordeaux /Gilford",
+        "latitude": 45.536110054431,
+        "longitude": -73.576287031174
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.62242102623,
+          45.536152810858
+        ]
+      },
+      "properties": {
+        "code": 6321,
+        "name": "Gary Carter / St-Laurent",
+        "latitude": 45.536152810858,
+        "longitude": -73.62242102623
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.607545495033,
+          45.53626117852
+        ]
+      },
+      "properties": {
+        "code": 6257,
+        "name": "de St-Vallier / St-Zotique",
+        "latitude": 45.53626117852,
+        "longitude": -73.607545495033
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571416810155,
+          45.536368888563
+        ]
+      },
+      "properties": {
+        "code": 6151,
+        "name": "Parthenais / Mont-Royal",
+        "latitude": 45.536368888563,
+        "longitude": -73.571416810155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.512642234564,
+          45.536377963056
+        ]
+      },
+      "properties": {
+        "code": 5005,
+        "name": "St-Charles / St-Sylvestre",
+        "latitude": 45.536377963056,
+        "longitude": -73.512642234564
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56081,
+          45.5367
+        ]
+      },
+      "properties": {
+        "code": 6130,
+        "name": "Sherbrooke / Frontenac",
+        "latitude": 45.5367,
+        "longitude": -73.56081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614887958393,
+          45.536785251284
+        ]
+      },
+      "properties": {
+        "code": 6250,
+        "name": "March\u00e9 Jean-Talon (Henri-Julien / Jean-Talon)",
+        "latitude": 45.536785251284,
+        "longitude": -73.614887958393
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61199,
+          45.53696
+        ]
+      },
+      "properties": {
+        "code": 6249,
+        "name": "B\u00e9langer / St-Denis",
+        "latitude": 45.53696,
+        "longitude": -73.61199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593166172504,
+          45.537025834348
+        ]
+      },
+      "properties": {
+        "code": 6258,
+        "name": "Parc P\u00e8re-Marquette (Chambord / Rosemont)",
+        "latitude": 45.537025834348,
+        "longitude": -73.593166172504
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58584,
+          45.53703
+        ]
+      },
+      "properties": {
+        "code": 6167,
+        "name": "Marquette / St-Gr\u00e9goire",
+        "latitude": 45.53703,
+        "longitude": -73.58584
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.602026,
+          45.537041
+        ]
+      },
+      "properties": {
+        "code": 6910,
+        "name": "Boyer / Beaubien",
+        "latitude": 45.537041,
+        "longitude": -73.602026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569138944149,
+          45.537114135457
+        ]
+      },
+      "properties": {
+        "code": 7027,
+        "name": "Terrasse Guindon / Fullum",
+        "latitude": 45.537114135457,
+        "longitude": -73.569138944149
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5710031,
+          45.53711414
+        ]
+      },
+      "properties": {
+        "code": 6150,
+        "name": "Messier / du Mont-Royal",
+        "latitude": 45.53711414,
+        "longitude": -73.5710031
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.597476482391,
+          45.537159225331
+        ]
+      },
+      "properties": {
+        "code": 6262,
+        "name": "de la Roche /  de Bellechasse",
+        "latitude": 45.537159225331,
+        "longitude": -73.597476482391
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.495067059994,
+          45.537226038126
+        ]
+      },
+      "properties": {
+        "code": 5006,
+        "name": "Coll\u00e8ge \u00c9douard-Montpetit",
+        "latitude": 45.537226038126,
+        "longitude": -73.495067059994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579170405865,
+          45.537258798676
+        ]
+      },
+      "properties": {
+        "code": 6236,
+        "name": "Laurier / de Bordeaux",
+        "latitude": 45.537258798676,
+        "longitude": -73.579170405865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.618323,
+          45.537877
+        ]
+      },
+      "properties": {
+        "code": 6127,
+        "name": "Henri-Julien / de Castelnau",
+        "latitude": 45.537877,
+        "longitude": -73.618323
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562643,
+          45.537964
+        ]
+      },
+      "properties": {
+        "code": 6134,
+        "name": "Gascon / Rachel",
+        "latitude": 45.537964,
+        "longitude": -73.562643
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.583376761817,
+          45.538059984596
+        ]
+      },
+      "properties": {
+        "code": 7029,
+        "name": "Cartier / Masson",
+        "latitude": 45.538059984596,
+        "longitude": -73.583376761817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60556,
+          45.53848
+        ]
+      },
+      "properties": {
+        "code": 6255,
+        "name": "Boyer / St-Zotique",
+        "latitude": 45.53848,
+        "longitude": -73.60556
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576133474708,
+          45.538543523279
+        ]
+      },
+      "properties": {
+        "code": 6265,
+        "name": "Parthenais / St-Joseph",
+        "latitude": 45.538543523279,
+        "longitude": -73.576133474708
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56936,
+          45.53867
+        ]
+      },
+      "properties": {
+        "code": 6149,
+        "name": "Chapleau / du Mont-Royal",
+        "latitude": 45.53867,
+        "longitude": -73.56936
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.586221933365,
+          45.538699774323
+        ]
+      },
+      "properties": {
+        "code": 6260,
+        "name": "Dandurand / Papineau",
+        "latitude": 45.538699774323,
+        "longitude": -73.586221933365
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.628021478653,
+          45.538737949471
+        ]
+      },
+      "properties": {
+        "code": 6322,
+        "name": "St-Dominique / Gounod",
+        "latitude": 45.538737949471,
+        "longitude": -73.628021478653
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.552496,
+          45.538799
+        ]
+      },
+      "properties": {
+        "code": 6103,
+        "name": "Lesp\u00e9rance / de Rouen",
+        "latitude": 45.538799,
+        "longitude": -73.552496
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582445383072,
+          45.538984395523
+        ]
+      },
+      "properties": {
+        "code": 6197,
+        "name": "de Bordeaux / Masson",
+        "latitude": 45.538984395523,
+        "longitude": -73.582445383072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614318180189,
+          45.539031775834
+        ]
+      },
+      "properties": {
+        "code": 6253,
+        "name": "Berri / Jean-Talon",
+        "latitude": 45.539031775834,
+        "longitude": -73.614318180189
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573836796568,
+          45.539223744553
+        ]
+      },
+      "properties": {
+        "code": 7035,
+        "name": "Fullum / Gilford",
+        "latitude": 45.539223744553,
+        "longitude": -73.573836796568
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.541030734777,
+          45.53929155936
+        ]
+      },
+      "properties": {
+        "code": 6002,
+        "name": "Ste-Catherine / D\u00e9z\u00e9ry",
+        "latitude": 45.53929155936,
+        "longitude": -73.541030734777
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.623555600643,
+          45.539487469364
+        ]
+      },
+      "properties": {
+        "code": 6328,
+        "name": "Henri-Julien / Villeray",
+        "latitude": 45.539487469364,
+        "longitude": -73.623555600643
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.634448051453,
+          45.539631598104
+        ]
+      },
+      "properties": {
+        "code": 6323,
+        "name": "Guizot / St-Laurent",
+        "latitude": 45.539631598104,
+        "longitude": -73.634448051453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.508752,
+          45.539824
+        ]
+      },
+      "properties": {
+        "code": 5004,
+        "name": "St-Charles / Charlotte",
+        "latitude": 45.539824,
+        "longitude": -73.508752
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.620235025883,
+          45.539828857206
+        ]
+      },
+      "properties": {
+        "code": 6327,
+        "name": "Faillon / St-Denis",
+        "latitude": 45.539828857206,
+        "longitude": -73.620235025883
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57555881,
+          45.5398326
+        ]
+      },
+      "properties": {
+        "code": 6162,
+        "name": "Fullum / St-Joseph",
+        "latitude": 45.5398326,
+        "longitude": -73.57555881
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.599343299866,
+          45.539932183127
+        ]
+      },
+      "properties": {
+        "code": 6268,
+        "name": "Chambord / Beaubien",
+        "latitude": 45.539932183127,
+        "longitude": -73.599343299866
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.638134747744,
+          45.539983846016
+        ]
+      },
+      "properties": {
+        "code": 7064,
+        "name": "Clark / de Li\u00e8ge",
+        "latitude": 45.539983846016,
+        "longitude": -73.638134747744
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60897,
+          45.54006
+        ]
+      },
+      "properties": {
+        "code": 6254,
+        "name": "Boyer / B\u00e9langer",
+        "latitude": 45.54006,
+        "longitude": -73.60897
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.616817891598,
+          45.5403962081
+        ]
+      },
+      "properties": {
+        "code": 7061,
+        "name": "Lajeunesse / de Castelnau",
+        "latitude": 45.5403962081,
+        "longitude": -73.616817891598
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.630400598049,
+          45.540780049798
+        ]
+      },
+      "properties": {
+        "code": 6330,
+        "name": "de Gasp\u00e9 / Jarry",
+        "latitude": 45.540780049798,
+        "longitude": -73.630400598049
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584157,
+          45.540881
+        ]
+      },
+      "properties": {
+        "code": 6259,
+        "name": "Dandurand / de Lorimier",
+        "latitude": 45.540881,
+        "longitude": -73.584157
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.547549843788,
+          45.541110085196
+        ]
+      },
+      "properties": {
+        "code": 6393,
+        "name": "D\u00e9z\u00e9ry / Ontario",
+        "latitude": 45.541110085196,
+        "longitude": -73.547549843788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.591044545174,
+          45.541247223706
+        ]
+      },
+      "properties": {
+        "code": 6421,
+        "name": "Cartier / Rosemont",
+        "latitude": 45.541247223706,
+        "longitude": -73.591044545174
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.63007068634,
+          45.541406229071
+        ]
+      },
+      "properties": {
+        "code": 7063,
+        "name": "Henri-Julien / Jarry",
+        "latitude": 45.541406229071,
+        "longitude": -73.63007068634
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.554314374924,
+          45.541435084135
+        ]
+      },
+      "properties": {
+        "code": 6386,
+        "name": "M\u00e9tro Pr\u00e9fontaine (Moreau / Hochelaga)",
+        "latitude": 45.541435084135,
+        "longitude": -73.554314374924
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.612441,
+          45.541484
+        ]
+      },
+      "properties": {
+        "code": 6389,
+        "name": "Boyer / Jean-Talon",
+        "latitude": 45.541484,
+        "longitude": -73.612441
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565493822098,
+          45.541729201859
+        ]
+      },
+      "properties": {
+        "code": 6022,
+        "name": "Angus (Molson / William-Tremblay)",
+        "latitude": 45.541729201859,
+        "longitude": -73.565493822098
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.626111745834,
+          45.541816438876
+        ]
+      },
+      "properties": {
+        "code": 6329,
+        "name": "Gounod / St-Denis",
+        "latitude": 45.541816438876,
+        "longitude": -73.626111745834
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.597793,
+          45.542055
+        ]
+      },
+      "properties": {
+        "code": 6904,
+        "name": "Fabre / Beaubien",
+        "latitude": 45.542055,
+        "longitude": -73.597793
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6225471,
+          45.54211889
+        ]
+      },
+      "properties": {
+        "code": 6734,
+        "name": "Lajeunesse / Villeray (place Tap\u00e9o)",
+        "latitude": 45.54211889,
+        "longitude": -73.6225471
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.636341691017,
+          45.542485212372
+        ]
+      },
+      "properties": {
+        "code": 6332,
+        "name": "de Gasp\u00e9 / de Li\u00e8ge",
+        "latitude": 45.542485212372,
+        "longitude": -73.636341691017
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59214425087,
+          45.542569747781
+        ]
+      },
+      "properties": {
+        "code": 6264,
+        "name": "Chabot / de Bellechasse",
+        "latitude": 45.542569747781,
+        "longitude": -73.59214425087
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.538224473596,
+          45.542867968905
+        ]
+      },
+      "properties": {
+        "code": 7018,
+        "name": "Joliette / Ste-Catherine",
+        "latitude": 45.542867968905,
+        "longitude": -73.538224473596
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.617939054966,
+          45.542971758877
+        ]
+      },
+      "properties": {
+        "code": 6336,
+        "name": "Faillon / St-Hubert",
+        "latitude": 45.542971758877,
+        "longitude": -73.617939054966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.606372028589,
+          45.542993362196
+        ]
+      },
+      "properties": {
+        "code": 6276,
+        "name": "Chambord / B\u00e9langer",
+        "latitude": 45.542993362196,
+        "longitude": -73.606372028589
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.632353246212,
+          45.543347467583
+        ]
+      },
+      "properties": {
+        "code": 6331,
+        "name": "Guizot / St-Denis",
+        "latitude": 45.543347467583,
+        "longitude": -73.632353246212
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.601010292768,
+          45.543451726304
+        ]
+      },
+      "properties": {
+        "code": 6270,
+        "name": "Fabre / St-Zotique",
+        "latitude": 45.543451726304,
+        "longitude": -73.601010292768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.605650514364,
+          45.543650850531
+        ]
+      },
+      "properties": {
+        "code": 7065,
+        "name": "de Lanaudi\u00e8re / B\u00e9langer",
+        "latitude": 45.543650850531,
+        "longitude": -73.605650514364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.553673326969,
+          45.543698752952
+        ]
+      },
+      "properties": {
+        "code": 7020,
+        "name": "St-Germain / Hochelaga",
+        "latitude": 45.543698752952,
+        "longitude": -73.553673326969
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56772005558,
+          45.543763151117
+        ]
+      },
+      "properties": {
+        "code": 7039,
+        "name": "du Mont-Royal / Augustin-Frigon",
+        "latitude": 45.543763151117,
+        "longitude": -73.56772005558
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.667385578156,
+          45.544101284306
+        ]
+      },
+      "properties": {
+        "code": 7002,
+        "name": "Tolhurst / Fleury",
+        "latitude": 45.544101284306,
+        "longitude": -73.667385578156
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.545548915863,
+          45.544311148934
+        ]
+      },
+      "properties": {
+        "code": 6391,
+        "name": "Aylwin / Ontario",
+        "latitude": 45.544311148934,
+        "longitude": -73.545548915863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.581018,
+          45.544377
+        ]
+      },
+      "properties": {
+        "code": 6905,
+        "name": "Parc Rosemont (Dandurand / d'Iberville)",
+        "latitude": 45.544377,
+        "longitude": -73.581018
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571564,
+          45.544513
+        ]
+      },
+      "properties": {
+        "code": 6916,
+        "name": "Parc du P\u00e9lican (2e avenue / St-Joseph)",
+        "latitude": 45.544513,
+        "longitude": -73.571564
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.537794649601,
+          45.544593525232
+        ]
+      },
+      "properties": {
+        "code": 6346,
+        "name": "Congres",
+        "latitude": 45.544593525232,
+        "longitude": -73.537794649601
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58822286129,
+          45.544598559472
+        ]
+      },
+      "properties": {
+        "code": 6261,
+        "name": "Louis H\u00e9mon / Rosemont",
+        "latitude": 45.544598559472,
+        "longitude": -73.58822286129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.621581,
+          45.54467
+        ]
+      },
+      "properties": {
+        "code": 6335,
+        "name": "du Rosaire / St-Hubert",
+        "latitude": 45.54467,
+        "longitude": -73.621581
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5949,
+          45.54475
+        ]
+      },
+      "properties": {
+        "code": 6267,
+        "name": "de Bordeaux / Beaubien",
+        "latitude": 45.54475,
+        "longitude": -73.5949
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610536158085,
+          45.54484558108
+        ]
+      },
+      "properties": {
+        "code": 6275,
+        "name": "Chambord / Jean-Talon",
+        "latitude": 45.54484558108,
+        "longitude": -73.610536158085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614841,
+          45.544867
+        ]
+      },
+      "properties": {
+        "code": 6340,
+        "name": "de la Roche / Everett",
+        "latitude": 45.544867,
+        "longitude": -73.614841
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57645065,
+          45.5451997
+        ]
+      },
+      "properties": {
+        "code": 6372,
+        "name": "1\u00e8re avenue / Masson",
+        "latitude": 45.5451997,
+        "longitude": -73.57645065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.556669354439,
+          45.545458903803
+        ]
+      },
+      "properties": {
+        "code": 6384,
+        "name": "Darling / Sherbrooke",
+        "latitude": 45.545458903803,
+        "longitude": -73.556669354439
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.634740412235,
+          45.545603545553
+        ]
+      },
+      "properties": {
+        "code": 6324,
+        "name": "de Li\u00e8ge / Lajeunesse",
+        "latitude": 45.545603545553,
+        "longitude": -73.634740412235
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562174588442,
+          45.545775952866
+        ]
+      },
+      "properties": {
+        "code": 6381,
+        "name": "Omer-Lavall\u00e9e / du Midway",
+        "latitude": 45.545775952866,
+        "longitude": -73.562174588442
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.599278926849,
+          45.546093821961
+        ]
+      },
+      "properties": {
+        "code": 6272,
+        "name": "Chabot / St-Zotique",
+        "latitude": 45.546093821961,
+        "longitude": -73.599278926849
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.638428449631,
+          45.546407521482
+        ]
+      },
+      "properties": {
+        "code": 6410,
+        "name": "M\u00e9tro Cr\u00e9mazie (Cr\u00e9mazie / Lajeunesse)",
+        "latitude": 45.546407521482,
+        "longitude": -73.638428449631
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.588893413544,
+          45.546800113026
+        ]
+      },
+      "properties": {
+        "code": 6266,
+        "name": "Louis-H\u00e9bert / Belllechasse",
+        "latitude": 45.546800113026,
+        "longitude": -73.588893413544
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.551557064056,
+          45.546907182971
+        ]
+      },
+      "properties": {
+        "code": 6387,
+        "name": "M\u00e9tro Joliette  (Joliette / Hochelaga)",
+        "latitude": 45.546907182971,
+        "longitude": -73.551557064056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.602616,
+          45.546939
+        ]
+      },
+      "properties": {
+        "code": 6273,
+        "name": "Cartier / B\u00e9langer",
+        "latitude": 45.546939,
+        "longitude": -73.602616
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575515,
+          45.546978
+        ]
+      },
+      "properties": {
+        "code": 6371,
+        "name": "4e avenue / Masson",
+        "latitude": 45.546978,
+        "longitude": -73.575515
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.543773293495,
+          45.54716076887
+        ]
+      },
+      "properties": {
+        "code": 6394,
+        "name": "Valois / Ontario",
+        "latitude": 45.54716076887,
+        "longitude": -73.543773293495
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.631103,
+          45.547218
+        ]
+      },
+      "properties": {
+        "code": 6333,
+        "name": "Leman / de Chateaubriand",
+        "latitude": 45.547218,
+        "longitude": -73.631103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569869846106,
+          45.547226645251
+        ]
+      },
+      "properties": {
+        "code": 6373,
+        "name": "7e avenue / St-Joseph",
+        "latitude": 45.547226645251,
+        "longitude": -73.569869846106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579221,
+          45.547362
+        ]
+      },
+      "properties": {
+        "code": 6367,
+        "name": "3e avenue / Dandurand",
+        "latitude": 45.547362,
+        "longitude": -73.579221
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.607668876648,
+          45.547407779219
+        ]
+      },
+      "properties": {
+        "code": 6923,
+        "name": "Marquette / Jean-Talon",
+        "latitude": 45.547407779219,
+        "longitude": -73.607668876648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.665565699339,
+          45.547648478256
+        ]
+      },
+      "properties": {
+        "code": 7006,
+        "name": "Clark / Fleury",
+        "latitude": 45.547648478256,
+        "longitude": -73.665565699339
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58523,
+          45.547997
+        ]
+      },
+      "properties": {
+        "code": 6362,
+        "name": "1\u00e8re avenue / Rosemont",
+        "latitude": 45.547997,
+        "longitude": -73.58523
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.616611361504,
+          45.548858825706
+        ]
+      },
+      "properties": {
+        "code": 6733,
+        "name": "Rousselot / Villeray",
+        "latitude": 45.548858825706,
+        "longitude": -73.616611361504
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.600873500109,
+          45.549120855351
+        ]
+      },
+      "properties": {
+        "code": 6185,
+        "name": "des \u00c9rables / B\u00e9langer",
+        "latitude": 45.549120855351,
+        "longitude": -73.600873500109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59385818243,
+          45.549180323765
+        ]
+      },
+      "properties": {
+        "code": 6277,
+        "name": "Elsdale / Louis-H\u00e9bert",
+        "latitude": 45.549180323765,
+        "longitude": -73.59385818243
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.541938662529,
+          45.549604526934
+        ]
+      },
+      "properties": {
+        "code": 7019,
+        "name": "Jeanne d'Arc / Ontario",
+        "latitude": 45.549604526934,
+        "longitude": -73.541938662529
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.591154515743,
+          45.54968589618
+        ]
+      },
+      "properties": {
+        "code": 6361,
+        "name": "Molson / Beaubien",
+        "latitude": 45.54968589618,
+        "longitude": -73.591154515743
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.563848286867,
+          45.549713734001
+        ]
+      },
+      "properties": {
+        "code": 7043,
+        "name": "Ernest-Gendreau / du Mont-Royal",
+        "latitude": 45.549713734001,
+        "longitude": -73.563848286867
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60556602478,
+          45.549754792986
+        ]
+      },
+      "properties": {
+        "code": 6924,
+        "name": "de Bordeaux / Jean-Talon",
+        "latitude": 45.549754792986,
+        "longitude": -73.60556602478
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.640632554889,
+          45.549833212923
+        ]
+      },
+      "properties": {
+        "code": 7004,
+        "name": "\u00c9mile-Journault / de Chateaubriand",
+        "latitude": 45.549833212923,
+        "longitude": -73.640632554889
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.558262586594,
+          45.549910693591
+        ]
+      },
+      "properties": {
+        "code": 6364,
+        "name": "de Chambly / Rachel",
+        "latitude": 45.549910693591,
+        "longitude": -73.558262586594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.534164279699,
+          45.54992008518
+        ]
+      },
+      "properties": {
+        "code": 6700,
+        "name": "de la Salle / Ste-Catherine",
+        "latitude": 45.54992008518,
+        "longitude": -73.534164279699
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.647966384888,
+          45.549985826258
+        ]
+      },
+      "properties": {
+        "code": 6917,
+        "name": "Basile-Routhier / Chabanel",
+        "latitude": 45.549985826258,
+        "longitude": -73.647966384888
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.59576,
+          45.55001
+        ]
+      },
+      "properties": {
+        "code": 6278,
+        "name": "Louis-H\u00e9bert / St-Zotique",
+        "latitude": 45.55001,
+        "longitude": -73.59576
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573358058929,
+          45.5503164088
+        ]
+      },
+      "properties": {
+        "code": 6368,
+        "name": "10e avenue / Masson",
+        "latitude": 45.5503164088,
+        "longitude": -73.573358058929
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582981824875,
+          45.550525134986
+        ]
+      },
+      "properties": {
+        "code": 6082,
+        "name": "6e avenue / Rosemont",
+        "latitude": 45.550525134986,
+        "longitude": -73.582981824875
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.549502,
+          45.550668
+        ]
+      },
+      "properties": {
+        "code": 6388,
+        "name": "d'Orl\u00e9ans / Hochelaga",
+        "latitude": 45.550668,
+        "longitude": -73.549502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615293055773,
+          45.550683616106
+        ]
+      },
+      "properties": {
+        "code": 6343,
+        "name": "Marquette / Villeray",
+        "latitude": 45.550683616106,
+        "longitude": -73.615293055773
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.656367063522,
+          45.55069206842
+        ]
+      },
+      "properties": {
+        "code": 6210,
+        "name": "M\u00e9tro Sauv\u00e9 (Berri / Sauv\u00e9)",
+        "latitude": 45.55069206842,
+        "longitude": -73.656367063522
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60957056284,
+          45.550723060226
+        ]
+      },
+      "properties": {
+        "code": 6189,
+        "name": "Chabot / Everett",
+        "latitude": 45.550723060226,
+        "longitude": -73.60957056284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57711,
+          45.550769
+        ]
+      },
+      "properties": {
+        "code": 6918,
+        "name": "9e avenue / Dandurand",
+        "latitude": 45.550769,
+        "longitude": -73.57711
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.620910942554,
+          45.550769078332
+        ]
+      },
+      "properties": {
+        "code": 7008,
+        "name": "Rousselot / Jarry",
+        "latitude": 45.550769078332,
+        "longitude": -73.620910942554
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561916,
+          45.551584
+        ]
+      },
+      "properties": {
+        "code": 6380,
+        "name": "Parc J.-Arthur-Champagne (de Chambly / du Mont-Royal)",
+        "latitude": 45.551584,
+        "longitude": -73.561916
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.599164932966,
+          45.551585189084
+        ]
+      },
+      "properties": {
+        "code": 6279,
+        "name": "Louis-H\u00e9bert / B\u00e9langer",
+        "latitude": 45.551585189084,
+        "longitude": -73.599164932966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593927919865,
+          45.551937362101
+        ]
+      },
+      "properties": {
+        "code": 6358,
+        "name": "1\u00e8re  avenue /St-Zotique",
+        "latitude": 45.551937362101,
+        "longitude": -73.593927919865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.630103,
+          45.552123
+        ]
+      },
+      "properties": {
+        "code": 6737,
+        "name": "Jacques-Casault / Christophe-Colomb",
+        "latitude": 45.552123,
+        "longitude": -73.630103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.544127345085,
+          45.55223975957
+        ]
+      },
+      "properties": {
+        "code": 6398,
+        "name": "Desjardins / de Rouen",
+        "latitude": 45.55223975957,
+        "longitude": -73.544127345085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.581185,
+          45.552649
+        ]
+      },
+      "properties": {
+        "code": 6919,
+        "name": "10e Avenue / Rosemont",
+        "latitude": 45.552649,
+        "longitude": -73.581185
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565751984715,
+          45.552923097316
+        ]
+      },
+      "properties": {
+        "code": 6376,
+        "name": "16e avenue / St-Joseph",
+        "latitude": 45.552923097316,
+        "longitude": -73.565751984715
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.532381951809,
+          45.553026736661
+        ]
+      },
+      "properties": {
+        "code": 7017,
+        "name": "Bennett / Ste-Catherine",
+        "latitude": 45.553026736661,
+        "longitude": -73.532381951809
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.602710813284,
+          45.553139429376
+        ]
+      },
+      "properties": {
+        "code": 6925,
+        "name": "Louis-H\u00e9bert / Jean-Talon",
+        "latitude": 45.553139429376,
+        "longitude": -73.602710813284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.539814352989,
+          45.553193897441
+        ]
+      },
+      "properties": {
+        "code": 6397,
+        "name": "March\u00e9 Maisonneuve",
+        "latitude": 45.553193897441,
+        "longitude": -73.539814352989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58752,
+          45.553215
+        ]
+      },
+      "properties": {
+        "code": 6360,
+        "name": "8e avenue / Beaubien",
+        "latitude": 45.553215,
+        "longitude": -73.58752
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569495677948,
+          45.553215158882
+        ]
+      },
+      "properties": {
+        "code": 6374,
+        "name": "Laurier / 15e avenue",
+        "latitude": 45.553215158882,
+        "longitude": -73.569495677948
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.638615,
+          45.553262
+        ]
+      },
+      "properties": {
+        "code": 6412,
+        "name": "Complexe sportif Claude-Robillard (\u00c9mile-Journault)",
+        "latitude": 45.553262,
+        "longitude": -73.638615
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.548290133476,
+          45.553490653555
+        ]
+      },
+      "properties": {
+        "code": 6417,
+        "name": "Desjardins / Hochelaga",
+        "latitude": 45.553490653555,
+        "longitude": -73.548290133476
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560494184494,
+          45.553570739671
+        ]
+      },
+      "properties": {
+        "code": 6383,
+        "name": "Bourbonni\u00e8re / du Mont-Royal",
+        "latitude": 45.553570739671,
+        "longitude": -73.560494184494
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6616,
+          45.5536
+        ]
+      },
+      "properties": {
+        "code": 6422,
+        "name": "Fleury / Lajeunesse",
+        "latitude": 45.5536,
+        "longitude": -73.6616
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571418821812,
+          45.553913774821
+        ]
+      },
+      "properties": {
+        "code": 7041,
+        "name": "15e avenue / Masson",
+        "latitude": 45.553913774821,
+        "longitude": -73.571418821812
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.551559746265,
+          45.554213755246
+        ]
+      },
+      "properties": {
+        "code": 6396,
+        "name": "M\u00e9tro Pie-IX (Pierre-de-Coubertin / Pie-IX)",
+        "latitude": 45.554213755246,
+        "longitude": -73.551559746265
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574320971966,
+          45.55479651444
+        ]
+      },
+      "properties": {
+        "code": 7046,
+        "name": "15e avenue / Dandurand",
+        "latitude": 45.55479651444,
+        "longitude": -73.574320971966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610737323761,
+          45.554961263577
+        ]
+      },
+      "properties": {
+        "code": 6345,
+        "name": "Louis-H\u00e9mon / Villeray",
+        "latitude": 45.554961263577,
+        "longitude": -73.610737323761
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.555823080824,
+          45.55520523994
+        ]
+      },
+      "properties": {
+        "code": 6703,
+        "name": "Jardin Botanique (Pie-IX / Sherbrooke)",
+        "latitude": 45.55520523994,
+        "longitude": -73.555823080824
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.653502464294,
+          45.556064928559
+        ]
+      },
+      "properties": {
+        "code": 7003,
+        "name": "St-Charles / Sauv\u00e9",
+        "latitude": 45.556064928559,
+        "longitude": -73.653502464294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.537440598011,
+          45.556261866808
+        ]
+      },
+      "properties": {
+        "code": 6355,
+        "name": "Ontario / Sicard",
+        "latitude": 45.556261866808,
+        "longitude": -73.537440598011
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.670114725828,
+          45.556562157497
+        ]
+      },
+      "properties": {
+        "code": 6736,
+        "name": "Basile-Routhier / Gouin",
+        "latitude": 45.556562157497,
+        "longitude": -73.670114725828
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58925,
+          45.556905
+        ]
+      },
+      "properties": {
+        "code": 6357,
+        "name": "12e avenue / St-Zotique",
+        "latitude": 45.556905,
+        "longitude": -73.58925
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569847,
+          45.557192
+        ]
+      },
+      "properties": {
+        "code": 6370,
+        "name": "d'Orl\u00e9ans / Masson",
+        "latitude": 45.557192,
+        "longitude": -73.569847
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576529100537,
+          45.557895457529
+        ]
+      },
+      "properties": {
+        "code": 6006,
+        "name": "18e avenue / Rosemont",
+        "latitude": 45.557895457529,
+        "longitude": -73.576529100537
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.529147207737,
+          45.557921148675
+        ]
+      },
+      "properties": {
+        "code": 6076,
+        "name": "Ville-Marie / Ste-Catherine",
+        "latitude": 45.557921148675,
+        "longitude": -73.529147207737
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58342975378,
+          45.558460146503
+        ]
+      },
+      "properties": {
+        "code": 6033,
+        "name": "16e avenue / Beaubien",
+        "latitude": 45.558460146503,
+        "longitude": -73.58342975378
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.658413589001,
+          45.558999740254
+        ]
+      },
+      "properties": {
+        "code": 6710,
+        "name": "de la Roche / Fleury",
+        "latitude": 45.558999740254,
+        "longitude": -73.658413589001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.548480570316,
+          45.5590179193
+        ]
+      },
+      "properties": {
+        "code": 6395,
+        "name": "Pierre-de-Coubertin / Aird",
+        "latitude": 45.5590179193,
+        "longitude": -73.548480570316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.599658,
+          45.559199
+        ]
+      },
+      "properties": {
+        "code": 6347,
+        "name": "M\u00e9tro St-Michel (Shaughnessy / St-Michel)",
+        "latitude": 45.559199,
+        "longitude": -73.599658
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.535496,
+          45.5594818
+        ]
+      },
+      "properties": {
+        "code": 6720,
+        "name": "Ontario / Viau",
+        "latitude": 45.5594818,
+        "longitude": -73.535496
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615447282791,
+          45.559842361205
+        ]
+      },
+      "properties": {
+        "code": 6930,
+        "name": "Paul Boutet / des Regrattiers",
+        "latitude": 45.559842361205,
+        "longitude": -73.615447282791
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.65041,
+          45.560742
+        ]
+      },
+      "properties": {
+        "code": 6726,
+        "name": "Hamel / Sauv\u00e9",
+        "latitude": 45.560742,
+        "longitude": -73.65041
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.601430058479,
+          45.561299659446
+        ]
+      },
+      "properties": {
+        "code": 6735,
+        "name": "Fran\u00e7ois-Perrault / L.-O.-David",
+        "latitude": 45.561299659446,
+        "longitude": -73.601430058479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585643,
+          45.561594
+        ]
+      },
+      "properties": {
+        "code": 6704,
+        "name": "19e avenue / St-Zotique",
+        "latitude": 45.561594,
+        "longitude": -73.585643
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610512018204,
+          45.561690269046
+        ]
+      },
+      "properties": {
+        "code": 7023,
+        "name": "CHSLD St-Michel (Jarry / 8e avenue)",
+        "latitude": 45.561690269046,
+        "longitude": -73.610512018204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5489124,
+          45.5639212
+        ]
+      },
+      "properties": {
+        "code": 6701,
+        "name": "de Marseille / Viau",
+        "latitude": 45.5639212,
+        "longitude": -73.5489124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.655573,
+          45.563947
+        ]
+      },
+      "properties": {
+        "code": 6716,
+        "name": "Francis / Fleury",
+        "latitude": 45.563947,
+        "longitude": -73.655573
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571244,
+          45.564353
+        ]
+      },
+      "properties": {
+        "code": 6731,
+        "name": "28e avenue / Rosemont",
+        "latitude": 45.564353,
+        "longitude": -73.571244
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577639,
+          45.564944
+        ]
+      },
+      "properties": {
+        "code": 6723,
+        "name": "26e avenue / Beaubien",
+        "latitude": 45.564944,
+        "longitude": -73.577639
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.653787449002,
+          45.567352057366
+        ]
+      },
+      "properties": {
+        "code": 7005,
+        "name": "Marquette / Fleury",
+        "latitude": 45.567352057366,
+        "longitude": -73.653787449002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57943594,
+          45.56822507
+        ]
+      },
+      "properties": {
+        "code": 6713,
+        "name": "30e avenue / St-Zotique",
+        "latitude": 45.56822507,
+        "longitude": -73.57943594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.548081,
+          45.569789
+        ]
+      },
+      "properties": {
+        "code": 6702,
+        "name": "Chauveau / de l'Assomption",
+        "latitude": 45.569789,
+        "longitude": -73.548081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573047,
+          45.570081
+        ]
+      },
+      "properties": {
+        "code": 6730,
+        "name": "35e avenue / Beaubien",
+        "latitude": 45.570081,
+        "longitude": -73.573047
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.540313243866,
+          45.572788906991
+        ]
+      },
+      "properties": {
+        "code": 6722,
+        "name": "Pierre-de-Coubertin / Louis-Veuillot",
+        "latitude": 45.572788906991,
+        "longitude": -73.540313243866
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574922752668,
+          45.573541425148
+        ]
+      },
+      "properties": {
+        "code": 6753,
+        "name": "St-Zotique / 39e avenue",
+        "latitude": 45.573541425148,
+        "longitude": -73.574922752668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.550344705582,
+          45.573797819678
+        ]
+      },
+      "properties": {
+        "code": 7009,
+        "name": "CHSLD Benjamin-Victor-Rousselot (Dickson / Sherbrooke)",
+        "latitude": 45.573797819678,
+        "longitude": -73.550344705582
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561562,
+          45.575707
+        ]
+      },
+      "properties": {
+        "code": 6226,
+        "name": "H\u00f4pital Maisonneuve-Rosemont (Rosemont / Chatelain)",
+        "latitude": 45.575707,
+        "longitude": -73.561562
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.540452718735,
+          45.576944454209
+        ]
+      },
+      "properties": {
+        "code": 7075,
+        "name": "CHSLD \u00c9loria-Lepage (de la P\u00e9pini\u00e8re / de Marseille)",
+        "latitude": 45.576944454209,
+        "longitude": -73.540452718735
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.546289205551,
+          45.577135950141
+        ]
+      },
+      "properties": {
+        "code": 6721,
+        "name": "M\u00e9tro Cadillac (Sherbrooke / de Cadillac)",
+        "latitude": 45.577135950141,
+        "longitude": -73.546289205551
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.570504188538,
+          45.579324965085
+        ]
+      },
+      "properties": {
+        "code": 7044,
+        "name": "H\u00f4pital Santa Cabrini (St-Zotique / Jeanne-Jugan)",
+        "latitude": 45.579324965085,
+        "longitude": -73.570504188538
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.544766,
+          45.58077
+        ]
+      },
+      "properties": {
+        "code": 6739,
+        "name": "de Repentigny / Sherbrooke",
+        "latitude": 45.58077,
+        "longitude": -73.544766
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.542442917824,
+          45.582757156034
+        ]
+      },
+      "properties": {
+        "code": 7016,
+        "name": "M\u00e9tro Langelier (Sherbrooke / Langelier)",
+        "latitude": 45.582757156034,
+        "longitude": -73.542442917824
+      }
+    }
+  ]
+}

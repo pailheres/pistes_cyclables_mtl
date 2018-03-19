@@ -87,6 +87,19 @@
     var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
     //var tmp_layerControl2 = L.control.layers(baseLayers, null, {collapsed:false, position:bottomright}).addTo(map);
 
+    
+    var tmp_layer_ip251;
+    //load GeoJSON from an external file
+    $.getJSON("data_out/Stations_2017.geojson",function(data_bixi_station){
+        // add GeoJSON layer to the map once the file is loaded
+        // Use the data to create a GeoJSON layer and add it to the map
+        tmp_layer_stations_bixi = L.geoJson(data_bixi_station);
+        //tmp_layer_ip251.addTo(map);  //this should be uncomment to have the layer selected by default
+        // Add the geojson layer to the layercontrol
+        tmp_layerControl.addOverlay(tmp_layer_stations_bixi, 'stations BIXI');
+    });
+    
+    
     $.getJSON("data_out/reseau_cyclable_2018_janv2018.geojson", f_cb_pistes_mtl_geojson);
     function f_cb_pistes_mtl_geojson(data) {
         // iterate over types, filter by that type, and format the layer for that feature type
