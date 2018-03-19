@@ -83,14 +83,14 @@
         maxZoom: 18,
         keyboard: true,
         zoomControl: true,
-        layers: [satellite]
+        layers: [grayscale]
     });
 
     //control for base (radiobutton) and overlays(checkbox)
-    var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
+//    var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
     //var tmp_layerControl2 = L.control.layers(baseLayers, null, {collapsed:false, position:bottomright}).addTo(map);
 
-    
+    /*
     var tmp_layer_ip251;
     //load GeoJSON from an external file
     $.getJSON("data_out/Stations_2017.geojson", f_cb_bixi_stations_geojson);
@@ -207,11 +207,59 @@
     
     //add scale at bottom left
     //L.control.scale().addTo(map);
+*/
 
-    
-    
-    
-    
+    // Setup svg element to work with
+    var svg = d3.select("#map").select("svg"), linklayer = svg.append("g"), nodelayer = svg.append("g");
+
+    //var tmp_links = [];
+    d3.json("data_out/bla.geojson", function(tmp_nodes) {
+        d3.csv("data_out/links2.csv", function(tmp_links) {
+            //tmp_links = data;
+            console.log(tmp_links[0]);
+            console.log(tmp_links[1]);
+
+            // Instantiate spatial sankey
+            var spatialsankey = d3.spatialsankey()
+                                  .lmap(map)
+                                  .nodes(tmp_nodes.features)
+                                  .links(tmp_links);
+
+            // Draw nodes
+            var node = spatialsankey.node();
+            var circs = nodelayer.selectAll("circle")
+                                 .data(spatialsankey.nodes())
+                                 .enter()
+                                 .append("circle")
+                                 .attr("cx", node.cx)
+                                 .attr("cy", node.cy)
+                                 .attr("r", node.r)
+                                 .style("fill", node.fill);
+
+            // Draw links
+            link = spatialsankey.link();
+            var beziers = linklayer.selectAll("path")
+                                   .data(spatialsankey.links())
+                                   .enter()
+                                   .append("path")
+                                   .attr("d", link)
+                                   .attr('id', function(d){return d.id})
+                                   .style("stroke-width", link.width())
+                                   .style("fill", 'none');
+                                   
+        });
+    });
+//    console.log(tmp_links[0]);
+
+
+    //utilise ca pour trouver ou ca plante
+    L.control.scale().addTo(map);
+
+
+
+
+
+/*    
     // Initialize the SVG layer
     //map._initPathRoot()
     
@@ -220,9 +268,8 @@
 
 
     // Load data asynchronosuly
-    d3.json("data_out/Stations_2017.geojson", function(nodes) {
-      d3.csv("links.csv", function(links) {
-
+    d3.json("data_out/bla.geojson", function(nodes) {
+      d3.csv("data_out/links2.csv", function(links) {
 
         // Setup spatialsankey object
         var spatialsankey = d3.spatialsankey()
@@ -233,14 +280,12 @@
                                 
                                 
                                 
-        //utilise ca pour trouver ou ca plante
-        L.control.scale().addTo(map);
         
         
         
         
         
-/*        
+        
         var mouseover = function(d){
           // Get link data for this node
           var nodelinks = spatialsankey.links().filter(function(link){
@@ -267,7 +312,7 @@
               return (this === circleUnderMouse) ? 0.7 : 0;
           });
         };
-*/
+
         var mouseout = function(d) {
           // Remove links
           linklayer.selectAll("path").remove();
@@ -308,7 +353,7 @@
     d3.selectAll("input").on("click", function(){
       options[this.name] = parseFloat(this.value);
     });
-
+*/
 </script>
 
 

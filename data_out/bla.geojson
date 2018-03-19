@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "AD",
+      "properties": { "LAT": 45.430740224175, "LON": -73.591910825344 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -73.591910825344, 45.430740224175 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AE",
+      "properties": { "LAT": 45.434433534532, "LON": -73.586694002151 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -73.586694002151, 45.434433534532 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AF",
+      "properties": { "LAT": 45.437913800652, "LON": -73.582740426064 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -73.582740426064, 45.437913800652 ]
+      }
+    }
+]}
