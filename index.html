@@ -65,6 +65,10 @@
         ,satellite   = L.tileLayer('http://{s}.tiles.mapbox.com/v3/moklick.lh736gg3/{z}/{x}/{y}.png')
         ,terrain     = L.tileLayer('http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.png')
         ,cycling     = L.tileLayer('http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
+        ,simple      = L.tileLayer('http://{s}tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+                                    subdomains: ['','a.','b.','c.','d.'],
+                                    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>'
+                                  })
         ;
 
     var baseLayers = {
@@ -73,7 +77,8 @@
       "roadmap": roadmap,
       "satellite": satellite,
       "terrain": terrain,
-      "cycling": cycling
+      "cycling": cycling,
+      "simple": simple,
     };
 
     var map = L.map('mapid', {
@@ -83,14 +88,14 @@
         maxZoom: 18,
         keyboard: true,
         zoomControl: true,
-        layers: [grayscale]
+        layers: [simple]
     });
 
     //control for base (radiobutton) and overlays(checkbox)
-//    var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
+    var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
     //var tmp_layerControl2 = L.control.layers(baseLayers, null, {collapsed:false, position:bottomright}).addTo(map);
 
-    /*
+    
     var tmp_layer_ip251;
     //load GeoJSON from an external file
     $.getJSON("data_out/Stations_2017.geojson", f_cb_bixi_stations_geojson);
@@ -207,7 +212,7 @@
     
     //add scale at bottom left
     //L.control.scale().addTo(map);
-*/
+/*
 
     // Setup svg element to work with
     var svg = d3.select("#map").select("svg"), linklayer = svg.append("g"), nodelayer = svg.append("g");
@@ -259,7 +264,7 @@
 
 
 
-/*    
+    
     // Initialize the SVG layer
     //map._initPathRoot()
     

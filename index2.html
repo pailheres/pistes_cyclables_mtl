@@ -2,9 +2,7 @@
 <meta charset="utf-8">
 <title>spatialsankey.js - sankey diagrams on a map</title>
 
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-
-<style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/><style>
 body {
   position: absolute;
   width:100%;
@@ -57,47 +55,20 @@ path:hover {
   <div id="map"></div>
   <form class="curvesettings">
   <div class="box">
-    <div class="title">Curve settings</div>
+    <div class="title">Hover</div>
     <div>Hover over nodes<br> to see links.</div>
-    <div>Change styles using<br> radio buttons.</div>
   </div>
 
-    <div class="box">
-      <div class="title">Curve shape</div>
-      <input type="radio" name="use_arcs" value="0" checked>Beziers<br>
-      <input type="radio" name="use_arcs" value="1">Arcs<br>
-    </div>
-    <div class="box">
-    <div class="title">Flip at horizontal axis</div>
-    <input type="radio" name="flip" value="1" checked>Flip<br>
-    <input type="radio" name="flip" value="0">NoFlip<br>
-    </div>
-    <div class="box">
-    <div class="title">Set curve steepness X</div>
-    <div>(bezier control point)</div>
-    <input type="radio" name="xshift" value="0.1">xshift 0.1<br>
-    <input type="radio" name="xshift" value="0.4" checked>xshift 0.4<br>
-    <input type="radio" name="xshift" value="0.8">xshift 0.8<br>
-    <input type="radio" name="xshift" value="1.6">xshift 1.6<br>
-    </div>
-    <div class="box">
-    <div class="title">Set curve steepness Y</div>
-    <div>(bezier control point)</div>
-    <input type="radio" name="yshift" value="0.1" checked>yshift 0.1<br>
-    <input type="radio" name="yshift" value="0.4">yshift 0.4<br>
-    <input type="radio" name="yshift" value="0.8">yshift 0.8<br>
-    <input type="radio" name="yshift" value="1.6">yshift 1.6<br>
-    </div>
   </form>
-  <div class="source box">
-    <div class="title">European energy imports</div>
-    This graph shows how much petroleum products in thousands of tonnes are imported by each EU28 country. The <a href="http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=nrg_123a&lang=en">datasource</a> is the Eurostat database table nrg123a and for the year 2012.
-  </div>
 </body>
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-<script src="http://rawgit.com/geodesign/spatialsankey/master/spatialsankey.js"></script>
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+
+<script src="http://d3js.org/d3.v4.min.js"></script>
+
+<!--script src="http://rawgit.com/geodesign/spatialsankey/master/spatialsankey.js"></script-->
+<script src="../spatialsankey/spatialsankey.js"></script>
+
 <script type="text/javascript">
 
 // Set leaflet map
@@ -113,12 +84,22 @@ var map = new L.map('map', {
         });
  
 // Initialize the SVG layer
-map._initPathRoot()
+//map._initPathRoot()
+var svgLayer = L.svg();
+svgLayer.addTo(map);
 
-// Setup svg element to work with
-var svg = d3.select("#map").select("svg"),
-    linklayer = svg.append("g"),
-    nodelayer = svg.append("g");
+//var svg = d3.select("#map").select("svg");
+//var g = d3.select("#map").select("svg").select('g');
+//g.attr("class", "leaflet-zoom-hide");
+
+var svg = d3.select("#map").select("svg")
+  , linklayer = svg.append("g")
+  , nodelayer = svg.append("g");
+
+//// Setup svg element to work with
+//var svg = d3.select("#map").select("svg");
+//    linklayer = svg.append("g"),
+//    nodelayer = svg.append("g");
 
 // Load data asynchronosuly
 d3.json("data_out/Stations_2017.geojson", function(nodes) {
@@ -131,6 +112,8 @@ d3.json("data_out/Stations_2017.geojson", function(nodes) {
                             .links(links);
     
     var mouseover = function(d){
+      console.log("ook" + d.node);
+
       // Get link data for this node
       var nodelinks = spatialsankey.links().filter(function(link){
         return link.source == d.id;
@@ -155,8 +138,8 @@ d3.json("data_out/Stations_2017.geojson", function(nodes) {
       circs.transition().style('opacity',function () {
           return (this === circleUnderMouse) ? 0.7 : 0;
       });
-    };
-
+    }; 
+    
     var mouseout = function(d) {
       // Remove links
       linklayer.selectAll("path").remove();
@@ -167,6 +150,8 @@ d3.json("data_out/Stations_2017.geojson", function(nodes) {
     // Draw nodes
     var node = spatialsankey.node()
     var circs = nodelayer.selectAll("circle")
+      .on('mouseover', mouseover)
+      .on('mouseout', mouseout)
       .data(spatialsankey.nodes())
       .enter()
       .append("circle")
@@ -174,9 +159,7 @@ d3.json("data_out/Stations_2017.geojson", function(nodes) {
       .attr("cy", node.cy)
       .attr("r", node.r)
       .style("fill", node.fill)
-      .attr("opacity", 0.7)
-      .on('mouseover', mouseover)
-      .on('mouseout', mouseout);
+      .attr("opacity", 0.7);
     
     // Adopt size of drawn objects after leaflet zoom reset
     var zoomend = function(){
@@ -189,12 +172,6 @@ d3.json("data_out/Stations_2017.geojson", function(nodes) {
     map.on("zoomend", zoomend);
   });
 });
-var options = {'use_arcs': false, 'flip': false};
-d3.selectAll("input").forEach(function(x){
-  options[x.name] = parseFloat(x.value);
-})
 
-d3.selectAll("input").on("click", function(){
-  options[this.name] = parseFloat(this.value);
-});
+var options = {'use_arcs': false, 'flip': false, 'xshift': 0.4, 'yshift': 0.1};
 </script>
