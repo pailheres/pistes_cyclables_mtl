@@ -41,6 +41,7 @@ var  streets     = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr
     ,roadmap     = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
     ,satellite   = L.tileLayer('https://{s}.tiles.mapbox.com/v3/moklick.lh736gg3/{z}/{x}/{y}.png')
     ,terrain     = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png')
+    ,topo        = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png')
     //,cycling     = L.tileLayer('http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
     ,simple      = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png', {
                                 subdomains: ['','a.','b.','c.','d.'],
@@ -54,6 +55,7 @@ var baseLayers = {
   "roadmap": roadmap,
   "satellite": satellite,
   "terrain": terrain,
+  "topo": topo,
   //"cycling": cycling,
   "simple": simple,
 };
