@@ -36,7 +36,8 @@ var mbAttr = 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap<
              'Imagery © <a href="https://mapbox.com">Mapbox</a>',
     mbUrl  = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
 
-var  streets     = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr})
+var  empty       = L.tileLayer('')
+    ,streets     = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr})
     ,grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr})
     ,roadmap     = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
     ,satellite   = L.tileLayer('https://{s}.tiles.mapbox.com/v3/moklick.lh736gg3/{z}/{x}/{y}.png')
@@ -50,6 +51,7 @@ var  streets     = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr
     ;
 
 var baseLayers = {
+  "empty": empty,
   "streets": streets,
   "grayscale": grayscale,
   "roadmap": roadmap,
