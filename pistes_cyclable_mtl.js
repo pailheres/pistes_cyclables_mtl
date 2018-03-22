@@ -4,10 +4,16 @@ var script = document.currentScript;
 var fullUrl = script.src;
 console.log(script);
 console.log(fullUrl);
+
+var tmp_src_prefix = fullUrl.split('/').slice(0, -1).join('/') + '/';
+
 // prefix for files path
 //var tmp_src_prefix = "";  //for local debug
-var tmp_src_prefix = "https://rawgit.com/pailheres/pistes_cyclables_mtl/master/";  //use rawgit for full web access (dev only)
+//var tmp_src_prefix = "https://rawgit.com/pailheres/pistes_cyclables_mtl/master/";  //use rawgit for full web access (dev only)
 //var tmp_src_prefix = "https://cdn.rawgit.com/pailheres/pistes_cyclables_mtl/7b548751/";  //use rawgit for full web access (release)
+
+console.log(tmp_src_prefix);
+
 
 // first list the types in an array
 var mtl_types_voie = {
@@ -42,7 +48,7 @@ var  streets     = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr
     ,roadmap     = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
     ,satellite   = L.tileLayer('https://{s}.tiles.mapbox.com/v3/moklick.lh736gg3/{z}/{x}/{y}.png')
     ,terrain     = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png')
-    ,cycling     = L.tileLayer('http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
+    //,cycling     = L.tileLayer('http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
     ,simple      = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png', {
                                 subdomains: ['','a.','b.','c.','d.'],
                                 attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>'
@@ -55,7 +61,7 @@ var baseLayers = {
   "roadmap": roadmap,
   "satellite": satellite,
   "terrain": terrain,
-  "cycling": cycling,
+  //"cycling": cycling,
   "simple": simple,
 };
 
