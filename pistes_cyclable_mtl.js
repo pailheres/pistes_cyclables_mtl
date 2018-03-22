@@ -33,7 +33,7 @@ var mtl_types_voie2 = {
 };
 
 var mbAttr = 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-             '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+             '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
              'Imagery © <a href="https://mapbox.com">Mapbox</a>',
     mbUrl  = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
 
@@ -41,11 +41,11 @@ var  streets     = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr
     ,grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr})
     ,roadmap     = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
     ,satellite   = L.tileLayer('https://{s}.tiles.mapbox.com/v3/moklick.lh736gg3/{z}/{x}/{y}.png')
-    ,terrain     = L.tileLayer('https://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.png')
-    ,cycling     = L.tileLayer('https://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
-    ,simple      = L.tileLayer('https://{s}tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+    ,terrain     = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png')
+    ,cycling     = L.tileLayer('http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png')
+    ,simple      = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png', {
                                 subdomains: ['','a.','b.','c.','d.'],
-                                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="https://openstreetmap.org">OpenStreetMap</a>, under <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>'
+                                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>'
                               })
     ;
 
