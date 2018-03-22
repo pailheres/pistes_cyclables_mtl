@@ -77,11 +77,42 @@ $.getJSON(tmp_src_prefix + "data_out/Stations_2017.geojson", f_cb_bixi_stations_
 function f_cb_bixi_stations_geojson(data_bixi_stations) {
     // add GeoJSON layer to the map once the file is loaded
     // Use the data to create a GeoJSON layer and add it to the map
-    tmp_layer_stations_bixi = L.geoJson(data_bixi_stations);
+    var tmp_layer_stations_bixi = L.geoJson(data_bixi_stations, {
+        pointToLayer: function (feature, latlng) {
+            //put properties in a popup table
+            var popupContent = "";
+            popupContent += "<table>";
+            for (var k in feature.properties) {
+                popupContent += "<tr><td>";
+                popupContent += k + '<td>' + String(feature.properties[k]);
+                popupContent += "</td></tr>";
+            }
+            popupContent += "</table>";
+            var marker = L.circleMarker(latlng);
+                marker.bindPopup(
+                    popupContent
+                    + '<br/><button type="button" class="btn btn-primary bixi_station_button_from" data = "' + feature.properties.code + '" ' + '>From</button>'
+                    + '<br/><button type="button" class="btn btn-primary bixi_station_button_to" data = "' + feature.properties.code + '" ' + '>To</button>'
+                );
+                return marker;
+        }
+    });
+
+
     //tmp_layer_ip251.addTo(map);  //this should be uncomment to have the layer selected by default
     // Add the geojson layer to the layercontrol
     tmp_layerControl.addOverlay(tmp_layer_stations_bixi, 'stations BIXI');
 };
+
+$("div").on("click", '.bixi_station_button_from', function () {
+    var ID = $(this).attr("data");
+    console.log('From' + ID);
+});
+$("div").on("click", '.bixi_station_button_to', function () {
+    var ID = $(this).attr("data");
+    console.log('To ' + ID);
+});
+
 
 
 $.getJSON(tmp_src_prefix + "data_out/reseau_cyclable_2018_janv2018.geojson", f_cb_pistes_mtl_geojson);
@@ -180,10 +211,20 @@ var popup = L.popup();
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
-        .setContent("You clicked the map at " + e.latlng.toString() )
+        .setContent(e.latlng.toString() )
         .openOn(map);
 }
 map.on('click', onMapClick);
+
+
+
+
+
+
+
+
+
+
 
 //add scale at bottom left
 //L.control.scale().addTo(map);
