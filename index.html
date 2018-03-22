@@ -13,7 +13,6 @@
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 
     <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="http://rawgit.com/geodesign/spatialsankey/master/spatialsankey.js"></script>
 
     <style>
         body {
@@ -31,6 +30,12 @@
 <div id="mapid" style="height: 100%; width: 100%;"></div>
 
 <script>
+    console.log("Start Program");
+
+    // prefix for files path (use rawgit for full web access, empty for local debug)
+    var tmp_src_prefix = "https://rawgit.com/pailheres/pistes_cyclables_mtl/master/";
+    //var tmp_src_prefix = "";
+
     // first list the types in an array
     var mtl_types_voie = {
         //0: "null",
@@ -98,7 +103,7 @@
     
     var tmp_layer_ip251;
     //load GeoJSON from an external file
-    $.getJSON("data_out/Stations_2017.geojson", f_cb_bixi_stations_geojson);
+    $.getJSON(tmp_src_prefix + "data_out/Stations_2017.geojson", f_cb_bixi_stations_geojson);
     function f_cb_bixi_stations_geojson(data_bixi_stations) {
         // add GeoJSON layer to the map once the file is loaded
         // Use the data to create a GeoJSON layer and add it to the map
@@ -109,7 +114,7 @@
     };
     
     
-    $.getJSON("data_out/reseau_cyclable_2018_janv2018.geojson", f_cb_pistes_mtl_geojson);
+    $.getJSON(tmp_src_prefix + "data_out/reseau_cyclable_2018_janv2018.geojson", f_cb_pistes_mtl_geojson);
     function f_cb_pistes_mtl_geojson(data) {
         // iterate over types, filter by that type, and format the layer for that feature type
         for (var type in mtl_types_voie) {
@@ -189,7 +194,7 @@
     //fichier commute au travail 6 septembre 2017 
     var tmp_layer_ip251;
     //load GeoJSON from an external file
-    $.getJSON("data_out/IpBike_251.geojson",function(data_ipbike){
+    $.getJSON(tmp_src_prefix + "data_out/IpBike_251.geojson",function(data_ipbike){
         // add GeoJSON layer to the map once the file is loaded
         // Use the data to create a GeoJSON layer and add it to the map
         tmp_layer_ip251 = L.geoJson(data_ipbike);
