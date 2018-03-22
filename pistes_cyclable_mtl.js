@@ -1,17 +1,10 @@
 console.log("Start Program");
 
-var script = document.currentScript;
-var fullUrl = script.src;
-console.log(script);
-console.log(fullUrl);
-
-var tmp_src_prefix = fullUrl.split('/').slice(0, -1).join('/') + '/';
-
-// prefix for files path
-//var tmp_src_prefix = "";  //for local debug
-//var tmp_src_prefix = "https://rawgit.com/pailheres/pistes_cyclables_mtl/master/";  //use rawgit for full web access (dev only)
-//var tmp_src_prefix = "https://cdn.rawgit.com/pailheres/pistes_cyclables_mtl/7b548751/";  //use rawgit for full web access (release)
-
+var tmp_script = document.currentScript;
+var tmp_fullUrl = tmp_script.src;
+var tmp_src_prefix = tmp_fullUrl.split('/').slice(0, -1).join('/') + '/';
+console.log(tmp_script);
+console.log(tmp_fullUrl);
 console.log(tmp_src_prefix);
 
 
@@ -76,9 +69,7 @@ var map = L.map('mapid', {
 });
 
 //control for base (radiobutton) and overlays(checkbox)
-var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:false}).addTo(map);
-//var tmp_layerControl2 = L.control.layers(baseLayers, null, {collapsed:false, position:bottomright}).addTo(map);
-
+var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:true}).addTo(map);
 
 var tmp_layer_ip251;
 //load GeoJSON from an external file
