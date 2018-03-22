@@ -72,6 +72,22 @@ var map = L.map('mapid', {
 var tmp_layerControl = L.control.layers(baseLayers, null, {collapsed:true}).addTo(map);
 
 var tmp_layer_ip251;
+
+
+
+// Initialize the SVG layer
+//map._initPathRoot()
+var svgLayer = L.svg();
+svgLayer.addTo(map);
+
+//var svg = d3.select("#map").select("svg");
+//var g = d3.select("#map").select("svg").select('g');
+//g.attr("class", "leaflet-zoom-hide");
+
+var svg = d3.select("#map").select("svg")
+  , linklayer = svg.append("g")
+  , nodelayer = svg.append("g");
+
 //load GeoJSON from an external file
 $.getJSON(tmp_src_prefix + "data_out/Stations_2017.geojson", f_cb_bixi_stations_geojson);
 function f_cb_bixi_stations_geojson(data_bixi_stations) {
@@ -113,7 +129,8 @@ $("div").on("click", '.bixi_station_button_to', function () {
     console.log('To ' + ID);
 });
 
-
+d3.csv("data_out/links3.csv", function(links) {
+});
 
 $.getJSON(tmp_src_prefix + "data_out/reseau_cyclable_2018_janv2018.geojson", f_cb_pistes_mtl_geojson);
 function f_cb_pistes_mtl_geojson(data) {
@@ -129,10 +146,10 @@ function f_cb_pistes_mtl_geojson(data) {
                     popupContent += "<tr><td>";
                     popupContent += k + '<td>' + String(feature.properties[k]);
                     if (k == "TYPE_VOIE") {
-                        popupContent += " (" + mtl_types_voie[type] + ")";
+                        popupContent += " (" + mtl_types_voie[feature.properties[k]] + ")";
                     }
                     else if (k == "TYPE_VOIE2") {
-                        popupContent += " (" + mtl_types_voie2[type] + ")";
+                        popupContent += " (" + mtl_types_voie2[feature.properties[k]] + ")";
                     }
                     popupContent += "</td></tr>";
                 }
@@ -216,162 +233,5 @@ function onMapClick(e) {
 }
 map.on('click', onMapClick);
 
-
-
-
-
-
-
-
-
-
-
 //add scale at bottom left
-//L.control.scale().addTo(map);
-/*
-
-// Setup svg element to work with
-var svg = d3.select("#map").select("svg"), linklayer = svg.append("g"), nodelayer = svg.append("g");
-
-//var tmp_links = [];
-d3.json("data_out/bla.geojson", function(tmp_nodes) {
-    d3.csv("data_out/links2.csv", function(tmp_links) {
-        //tmp_links = data;
-        console.log(tmp_links[0]);
-        console.log(tmp_links[1]);
-
-        // Instantiate spatial sankey
-        var spatialsankey = d3.spatialsankey()
-                              .lmap(map)
-                              .nodes(tmp_nodes.features)
-                              .links(tmp_links);
-
-        // Draw nodes
-        var node = spatialsankey.node();
-        var circs = nodelayer.selectAll("circle")
-                             .data(spatialsankey.nodes())
-                             .enter()
-                             .append("circle")
-                             .attr("cx", node.cx)
-                             .attr("cy", node.cy)
-                             .attr("r", node.r)
-                             .style("fill", node.fill);
-
-        // Draw links
-        link = spatialsankey.link();
-        var beziers = linklayer.selectAll("path")
-                               .data(spatialsankey.links())
-                               .enter()
-                               .append("path")
-                               .attr("d", link)
-                               .attr('id', function(d){return d.id})
-                               .style("stroke-width", link.width())
-                               .style("fill", 'none');
-                               
-    });
-});
-//    console.log(tmp_links[0]);
-
-
-//utilise ca pour trouver ou ca plante
 L.control.scale().addTo(map);
-
-
-
-
-
-
-// Initialize the SVG layer
-//map._initPathRoot()
-
-// Setup svg element to work with
-var svg = d3.select("#map").select("svg"), linklayer = svg.append("g"), nodelayer = svg.append("g");
-
-
-// Load data asynchronosuly
-d3.json("data_out/bla.geojson", function(nodes) {
-  d3.csv("data_out/links2.csv", function(links) {
-
-    // Setup spatialsankey object
-    var spatialsankey = d3.spatialsankey()
-                            .lmap(map)
-                            .nodes(nodes.features)
-                            .links(links);
-                            
-                            
-                            
-                            
-    
-    
-    
-    
-    
-    
-    var mouseover = function(d){
-      // Get link data for this node
-      var nodelinks = spatialsankey.links().filter(function(link){
-        return link.source == d.id;
-      });
-
-      // Add data to link layer
-      var beziers = linklayer.selectAll("path").data(nodelinks);
-      link = spatialsankey.link(options);
-
-      // Draw new links
-      beziers.enter()
-        .append("path")
-        .attr("d", link)
-        .attr('id', function(d){return d.id})
-        .style("stroke-width", spatialsankey.link().width());
-      
-      // Remove old links
-      beziers.exit().remove();
-
-      // Hide inactive nodes
-      var circleUnderMouse = this;
-      circs.transition().style('opacity',function () {
-          return (this === circleUnderMouse) ? 0.7 : 0;
-      });
-    };
-
-    var mouseout = function(d) {
-      // Remove links
-      linklayer.selectAll("path").remove();
-      // Show all nodes
-      circs.transition().style('opacity', 0.7);
-    };
-
-    // Draw nodes
-    var node = spatialsankey.node()
-    var circs = nodelayer.selectAll("circle")
-      .data(spatialsankey.nodes())
-      .enter()
-      .append("circle")
-      .attr("cx", node.cx)
-      .attr("cy", node.cy)
-      .attr("r", node.r)
-      .style("fill", node.fill)
-      .attr("opacity", 0.7)
-      .on('mouseover', mouseover)
-      .on('mouseout', mouseout);
-    
-    // Adapt size of drawn objects after leaflet zoom reset
-    var zoomend = function(){
-        linklayer.selectAll("path").attr("d", spatialsankey.link());
-
-        circs.attr("cx", node.cx)
-             .attr("cy", node.cy);
-    };
- 
-    map.on("zoomend", zoomend);
-  });
-});
-var options = {'use_arcs': false, 'flip': false};
-d3.selectAll("input").forEach(function(x){
-  options[x.name] = parseFloat(x.value);
-})
-
-d3.selectAll("input").on("click", function(){
-  options[this.name] = parseFloat(this.value);
-});
-*/
