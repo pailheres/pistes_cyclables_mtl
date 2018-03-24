@@ -92,6 +92,13 @@ var svg = d3.select("#map").select("svg")
   , linklayer = svg.append("g")
   , nodelayer = svg.append("g");
 
+// Load data asynchronosuly
+d3.json("data_out/Stations_2017.geojson", function(nodes) {
+  d3.csv("data_out/bixi_flow.csv", function(links) {
+  })
+})
+
+
 //load GeoJSON from an external file
 $.getJSON(tmp_src_prefix + "data_out/Stations_2017.geojson", f_cb_bixi_stations_geojson);
 function f_cb_bixi_stations_geojson(data_bixi_stations) {
