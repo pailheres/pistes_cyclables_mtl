@@ -74,7 +74,7 @@ path:hover {
 // Set leaflet map
 var map = new L.map('map', {
           center: new L.LatLng(45.555555, -73.647647),
-          zoom: 14,
+          zoom: 12,
           layers: [
             new L.tileLayer('http://{s}tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
               subdomains: ['','a.','b.','c.','d.'],
@@ -88,90 +88,71 @@ var map = new L.map('map', {
 var svgLayer = L.svg();
 svgLayer.addTo(map);
 
-//var svg = d3.select("#map").select("svg");
-//var g = d3.select("#map").select("svg").select('g');
-//g.attr("class", "leaflet-zoom-hide");
-
-var svg = d3.select("#map").select("svg")
-  , linklayer = svg.append("g")
-  , nodelayer = svg.append("g");
-
-//// Setup svg element to work with
-//var svg = d3.select("#map").select("svg");
-//    linklayer = svg.append("g"),
-//    nodelayer = svg.append("g");
-
-// Load data asynchronosuly
-d3.json("data_out/Stations_2017.geojson", function(nodes) {
-  d3.csv("data_out/links3.csv", function(links) {
-
-    // Setup spatialsankey object
-    var spatialsankey = d3.spatialsankey()
-                            .lmap(map)
-                            .nodes(nodes.features)
-                            .links(links);
+var svg = d3.select("#map").select("svg");
+g = svg.append("g");
+/*
+d3.json("data_out/circles.json", function(collection) {
+    // Add a LatLng object to each item in the dataset
+    collection.objects.forEach(function(d) {
+        d.LatLng = new L.LatLng(d.circle.coordinates[0],
+                                d.circle.coordinates[1])
+    })
     
-    var mouseover = function(d){
-      console.log("ook" + d.node);
-
-      // Get link data for this node
-      var nodelinks = spatialsankey.links().filter(function(link){
-        return link.source == d.id;
-      });
-
-      // Add data to link layer
-      var beziers = linklayer.selectAll("path").data(nodelinks);
-      link = spatialsankey.link(options);
-
-      // Draw new links
-      beziers.enter()
-        .append("path")
-        .attr("d", link)
-        .attr('id', function(d){return d.id})
-        .style("stroke-width", spatialsankey.link().width());
-      
-      // Remove old links
-      beziers.exit().remove();
-
-      // Hide inactive nodes
-      var circleUnderMouse = this;
-      circs.transition().style('opacity',function () {
-          return (this === circleUnderMouse) ? 0.7 : 0;
-      });
-    }; 
+    var feature = g.selectAll("circle")
+        .data(collection.objects)
+        .enter().append("circle")
+        .style("stroke", "black")  
+        .style("opacity", .6) 
+        .style("fill", "red")
+        .attr("r", 20);  
     
-    var mouseout = function(d) {
-      // Remove links
-      linklayer.selectAll("path").remove();
-      // Show all nodes
-      circs.transition().style('opacity', 0.7);
-    };
-
-    // Draw nodes
-    var node = spatialsankey.node()
-    var circs = nodelayer.selectAll("circle")
-      .on('mouseover', mouseover)
-      .on('mouseout', mouseout)
-      .data(spatialsankey.nodes())
-      .enter()
-      .append("circle")
-      .attr("cx", node.cx)
-      .attr("cy", node.cy)
-      .attr("r", node.r)
-      .style("fill", node.fill)
-      .attr("opacity", 0.7);
+    map.on("viewreset", update);
+    update();
+    function update() {
+        feature.attr("transform", 
+        function(d) { 
+            return "translate("+ 
+                map.latLngToLayerPoint(d.LatLng).x +","+ 
+                map.latLngToLayerPoint(d.LatLng).y +")";
+            }
+        )
+    }
+})
+*/
+d3.json("data_out/Stations_2017.geojson", function(mapData) {
+    var the_features = mapData.features;
+    //console.log(the_features);
     
-    // Adopt size of drawn objects after leaflet zoom reset
-    var zoomend = function(){
-        linklayer.selectAll("path").attr("d", spatialsankey.link());
+    // Add a LatLng object to each item in the dataset (invert them since coming from geojson)
+    the_features.forEach(function(d) {
+        d.LatLng = new L.LatLng(d.geometry.coordinates[1],
+                                d.geometry.coordinates[0])
+    })
+    
+    var feature = g.selectAll("geometry")
+        .data(the_features)
+        .enter()
+        .append("circle")
+        .style("stroke", "black")  
+        .style("opacity", .6) 
+        .style("fill", "blue")
+        .attr("r", 10);  
+    
+    map.on("viewreset", update);
+    map.on("zoomend", update);
+    
+    update();
+    function update() {
+        feature.attr("transform", 
+        function(d) { 
+            return "translate("+ 
+                map.latLngToLayerPoint(d.LatLng).x +","+ 
+                map.latLngToLayerPoint(d.LatLng).y +")";
+            }
+        )
+    }
 
-        circs.attr("cx", node.cx)
-             .attr("cy", node.cy);
-    };
- 
-    map.on("zoomend", zoomend);
-  });
-});
 
-var options = {'use_arcs': false, 'flip': false, 'xshift': 0.4, 'yshift': 0.1};
+})	
+
 </script>
