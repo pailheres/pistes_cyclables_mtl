@@ -120,6 +120,40 @@ d3.json("data_out/circles.json", function(collection) {
 })
 */
 d3.json("data_out/Stations_2017.geojson", function(mapData) {
+  d3.csv("data_out/bixi_flow.csv", function(flows) {
+    console.log(flows[0]);
+    var the_total = 0;
+    var the_station = 7005;
+    var the_biggest = null;
+    var dictionary = {};
+    flows.forEach(function(d) {
+      d.flow = +d.flow;  //convert string to number
+      d.start_station_code = +d.start_station_code;  //convert string to number
+      d.end_station_code = +d.end_station_code;  //convert string to number
+      if (d.start_station_code == the_station) {
+        dictionary[d.end_station_code]=d.flow;
+        the_total += d.flow;
+        //console.log(d);
+        if (the_biggest == null) {
+          the_biggest = d;
+          console.log("############################");
+          console.log(d);
+        }
+        else {
+          if (the_biggest.flow < d.flow) {
+            the_biggest = d;
+          console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+          console.log(d);
+          }
+        }
+      }
+    });
+    console.log(flows[0]);
+    console.log("The station #" + the_station + " total is: " + the_total);
+    console.log("The station #" + the_station + " biggest flow is: " + the_biggest.flow + " from station#" + the_biggest.end_station_code);
+    
+    
+    
     var the_features = mapData.features;
     //console.log(the_features);
     
@@ -136,7 +170,7 @@ d3.json("data_out/Stations_2017.geojson", function(mapData) {
         .style("stroke", "black")  
         .style("opacity", .6) 
         .style("fill", "blue")
-        .attr("r", 10);  
+        .attr("r", 10);//(((32-2)*(dictionary[]/the_biggest.flow))+2));  
     
     map.on("viewreset", update);
     map.on("zoomend", update);
@@ -152,7 +186,7 @@ d3.json("data_out/Stations_2017.geojson", function(mapData) {
         )
     }
 
-
+  })
 })	
 
 </script>
